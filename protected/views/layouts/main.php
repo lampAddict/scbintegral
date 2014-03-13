@@ -56,6 +56,6 @@
 	</div><!-- footer -->
 
 </div><!-- page -->
-
+<div id="bg">&nbsp;</div>
 </body>
 </html>

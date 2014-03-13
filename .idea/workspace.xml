@@ -4,8 +4,8 @@
     <list default="true" id="56656f52-20fe-4094-a262-b7d540f22917" name="Default" comment="" />
     <ignored path="scbtenzor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.php" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1391767896876" ignored="false" />
-    <file path="/main.css" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1391770634370" ignored="false" />
+    <file path="/main.php" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1394708970858" ignored="false" />
+    <file path="/main.css" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1394709780171" ignored="false" />
     <file path="/index.php" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1394705752394" ignored="false" />
     <file path="/production.php" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1391768951464" ignored="false" />
     <file path="/technologies.php" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1391769362701" ignored="false" />
@@ -30,10 +30,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="4" selection-start="3055" selection-end="3055" vertical-scroll-proportion="0.7971647">
+            <state line="43" column="4" selection-start="3055" selection-end="3055" vertical-scroll-proportion="-28.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="19" selection-start="2586" selection-end="2586" vertical-scroll-proportion="-30.884615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="15" selection-start="339" selection-end="339" vertical-scroll-proportion="0.35564855">
               <folding />
             </state>
           </provider>
@@ -54,11 +72,11 @@
         <option value="$PROJECT_DIR$/protected/views/site/pages/technologies.php" />
         <option value="$PROJECT_DIR$/protected/views/site/pages/services.php" />
         <option value="$PROJECT_DIR$/protected/views/site/pages/documentation.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/views/site/pages/contacts.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -167,6 +185,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scbtenzor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scbintegral" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,19 +394,23 @@
         <state line="16" column="0" selection-start="556" selection-end="556" vertical-scroll-proportion="-10.461538" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.106694564" />
+        <state line="43" column="4" selection-start="3055" selection-end="3055" vertical-scroll-proportion="-28.115385">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.19569893" />
+        <state line="58" column="19" selection-start="2586" selection-end="2586" vertical-scroll-proportion="-30.884615">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="4" selection-start="3055" selection-end="3055" vertical-scroll-proportion="0.7971647">
+        <state line="20" column="15" selection-start="339" selection-end="339" vertical-scroll-proportion="0.35564855">
           <folding />
         </state>
       </provider>
