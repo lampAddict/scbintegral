@@ -37,7 +37,7 @@ body
 
 #content
 {
-    padding: 20px;
+    padding: 20px 20px 20px 29px;
 }
 
 #sidebar
@@ -59,7 +59,7 @@ body
 	padding: 10px 20px;
     height: 81px;
     /*background: url('/images/header.jpg') 0 no-repeat; */ /*local*/
-    background: url('../images/header.jpg') 0 no-repeat; /*production*/
+    background: url('../images/logo.png') 0 no-repeat; /*production*/
     margin-left: 268px;
 }
 
@@ -154,7 +154,7 @@ div.view
 div.breadcrumbs
 {
 	font-size: 0.9em;
-	padding: 5px 20px;
+	padding: 10px 20px 5px 29px;
 }
 
 div.breadcrumbs span
