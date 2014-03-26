@@ -322,3 +322,14 @@ Stack trace:
 REQUEST_URI=/index.php?r=site/contacts
 HTTP_REFERER=http://scbtenzor/index.php?r=site/page&view=documentation
 ---
+2014/03/26 14:37:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "production".' in C:\_stuff\yii1.1.14\framework\web\CController.php:483
+Stack trace:
+#0 C:\_stuff\yii1.1.14\framework\web\CController.php(270): CController->missingAction('production')
+#1 C:\_stuff\yii1.1.14\framework\web\CWebApplication.php(282): CController->run('production')
+#2 C:\_stuff\yii1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('site/production')
+#3 C:\_stuff\yii1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\_stuff\OpenServer\domains\scbintegral\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/production&show=uto
+HTTP_REFERER=http://scbintegral/index.php?r=site/index
+---

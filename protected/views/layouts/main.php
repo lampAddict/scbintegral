@@ -16,6 +16,10 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
     <link rel="icon" type="image/ico" href="/favicon.png" />
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.jcarousel.js"></script>
+    <script src="js/jquery.jcarousel-autoscroll.js"></script>
 </head>
 
 <body>

@@ -2,6 +2,49 @@
 /* @var $this SiteController */
 $this->pageTitle=Yii::app()->name;
 ?> 
+<div id="desc" class="desc">Устройство управления токоограничением</div>
+<div class="jcarousel">
+    <ul>
+        <?php
+        $carim = array(
+            array('name'=>'uto.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
+            array('name'=>'uto1.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
+            array('name'=>'kk.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Коммутационная коробка для устройств управления токоограничением')
+        );
+
+        foreach( $carim as $img ){
+            echo '<li><img class="" onclick="window.location.href=\''.$img['link'].'\';return false;" src="images/products/'.$img['name'].'" desc="'.$img['desc'].'" /></li>';
+        }
+        ?>
+    </ul>
+</div>
+<script type="text/javascript">
+
+    $('.jcarousel').on('jcarousel:targetin', 'li', function(event, carousel) {
+        var img = this.firstChild;
+        if( img )
+            $('.jcarousel').width(parseInt(img.width));
+    });
+
+    $('.jcarousel').jcarousel({
+        visible: 1,
+        scroll: 1,
+        wrap: 'circular'
+    }).on('jcarousel:firstin', 'li', function(event, carousel) {
+            // "this" refers to the item element
+            // "carousel" is the jCarousel instance
+            $('div#desc').text( $(this).find('img').attr('desc') );
+    }).jcarousel({
+            animation: {
+                duration: 600,
+                easing:   'linear'
+            }
+    }).jcarouselAutoscroll({
+            interval: 3000,
+            target: '+=1',
+            autostart: true
+            });
+</script>
 <p>
 Открытое акционерное общество «Научно-производственное предприятие «Интеграл» было создано в 1999 году.
 <br /><br />
