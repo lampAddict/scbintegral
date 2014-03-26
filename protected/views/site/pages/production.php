@@ -115,10 +115,20 @@ function uvo(){
 }
 
 function plist(){
-    return '<p>
-                <a href="/index.php?r=site/page&view=production&show=uto"><div class="product"><img id="uto" src="images/products/uto.png"/><label class="pname" for="uto">Устройства управления токоограничением</label></div></a>
-                <a href="/index.php?r=site/page&view=production&show=uvo"><div class="product"><img id="uvo" src="images/products/uvo.png"/><label class="pname" for="uvo">Устройства управления водоограничением</label></div></a>
-            </p>';
+    return '
+                <div class="clickable" onclick="window.location.href=\'/index.php?r=site/page&view=production&show=uto\'">
+                    <div class="product">
+                        <img id="uto" src="images/products/uto.png"/>
+                        <label class="pname" for="uto">Устройства управления токоограничением</label>
+                    </div>
+                </div>
+                <div class="clickable" onclick="window.location.href=\'/index.php?r=site/page&view=production&show=uvo\'">
+                    <div class="product">
+                        <img id="uvo" src="images/products/uvo.png"/>
+                        <label class="pname" for="uvo">Устройства управления водоограничением</label>
+                    </div>
+                </div>
+            ';
 }
 
 if( isset($_GET['show']) && $_GET['show'] != '' ){
@@ -151,6 +161,3 @@ else{
     echo plist();
 }
 ?>
-<p>
-
-</p>
