@@ -28,6 +28,7 @@
 
 	<div id="header">
 		<div id="logo"><?php //echo CHtml::encode(Yii::app()->name); ?></div>
+        <div id="logo_title"><img src="images/oaonpp.png"/></div>
 	</div><!-- header -->
 
 	<div id="mainmenu">

@@ -9,7 +9,8 @@ $this->pageTitle=Yii::app()->name;
         $carim = array(
             array('name'=>'uto.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
             array('name'=>'uto1.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
-            array('name'=>'kk.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Коммутационная коробка для устройств управления токоограничением')
+            array('name'=>'kk.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Коммутационная коробка для устройств управления токоограничением'),
+            array('name'=>'uvo.png','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничением')
         );
 
         foreach( $carim as $img ){

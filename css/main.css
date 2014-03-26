@@ -63,6 +63,12 @@ body
     margin-left: 268px;
 }
 
+#logo_title{
+    display: none;
+    width: 786px;
+    margin: 0 auto;
+}
+
 #mainmenu
 {
 	background:white url(bg.gif) repeat-x left top;
@@ -279,4 +285,16 @@ have a fixed width and height (but it's not required).
 .desc{
     text-align: center;
     font-size: 14px;
+}
+
+.product{
+    float: left;
+    width: 200px;
+    margin: 0px 50px 50px 0px;
+}
+
+.pname{
+    padding: 29px;
+    display: block;
+    cursor: pointer;
 }
