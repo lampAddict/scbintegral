@@ -298,6 +298,7 @@ have a fixed width and height (but it's not required).
     display: block;
     cursor: pointer;
     text-decoration: underline;
+    color: #569DC8;
 }
 
 .clickable{
