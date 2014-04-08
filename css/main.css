@@ -76,6 +76,7 @@ body
 .logo_text{
     width:626px;
     margin: 0 auto;
+    white-space: nowrap;
 }
 
 #mainmenu
