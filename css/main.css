@@ -64,8 +64,17 @@ body
 }
 
 #logo_title{
-    display: none;
-    width: 786px;
+    display: block;
+    background-color: #4067C4;
+    color: #ffffff;
+    padding: 4px;
+    font-family: helvetica;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.logo_text{
+    width:626px;
     margin: 0 auto;
 }
 
@@ -76,7 +85,7 @@ body
 
 #mainmenu ul
 {
-	padding:6px 20px 5px 20px;
+	padding:5px 20px;
 	margin:0px;
 }
 
@@ -253,7 +262,7 @@ div.search-form
 .jcarousel {
     position: relative;
     overflow: hidden;
-    margin: 20px auto;
+    margin: 20px 0;
     width: 690px;
 }
 /*
@@ -282,9 +291,12 @@ have a fixed width and height (but it's not required).
     cursor: pointer;
 }
 
+.tcolor{
+    color: #1264C9;
+}
+
 .desc{
-    text-align: center;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .product{
@@ -303,4 +315,14 @@ have a fixed width and height (but it's not required).
 
 .clickable{
     cursor: pointer;
+}
+
+.half{
+    width: 50%;
+    float: left;
+    height: 350px;
+}
+
+.devcontact{
+    padding: 15px;
 }

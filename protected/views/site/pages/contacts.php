@@ -25,3 +25,6 @@ $this->breadcrumbs=array(
 <p>
 <b>Генеральный директор</b><br />Каплоухий Сергей Александрович<br />
 </p>
+<p>
+    <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=JbPqcteKqMMximgoE6Oj_2lAQqmKdibs&width=600&height=450"></script>
+</p>

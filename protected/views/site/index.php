@@ -2,22 +2,30 @@
 /* @var $this SiteController */
 $this->pageTitle=Yii::app()->name;
 ?> 
-<div id="desc" class="desc">Устройство управления токоограничением</div>
-<div class="jcarousel">
-    <ul>
-        <?php
-        $carim = array(
-            array('name'=>'uto.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
-            array('name'=>'uto1.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
-            array('name'=>'kk.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Коммутационная коробка для устройств управления токоограничением'),
-            array('name'=>'uvo.png','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничением')
-        );
+<div id="desc" class="desc tcolor">Устройство управления токоограничением</div>
+<div class="half">
+    <div class="jcarousel">
+        <ul>
+            <?php
+            $carim = array(
+                array('name'=>'uto.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
+                array('name'=>'uto1.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
+                array('name'=>'kk.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Коммутационная коробка для устройств управления токоограничением'),
+                array('name'=>'uvo.png','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничением')
+            );
 
-        foreach( $carim as $img ){
-            echo '<li><img class="" onclick="window.location.href=\''.$img['link'].'\';return false;" src="images/products/'.$img['name'].'" desc="'.$img['desc'].'" /></li>';
-        }
-        ?>
-    </ul>
+            foreach( $carim as $img ){
+                echo '<li><img class="" onclick="window.location.href=\''.$img['link'].'\';return false;" src="images/products/'.$img['name'].'" desc="'.$img['desc'].'" /></li>';
+            }
+            ?>
+        </ul>
+    </div>
+</div>
+<div class="half">
+    <div class="devcontact">
+        Контактная информация группы разработчиков:<br /><br />
+        Тел.: 8 (49621) 2-12-34
+    </div>
 </div>
 <script type="text/javascript">
 
@@ -46,12 +54,12 @@ $this->pageTitle=Yii::app()->name;
             autostart: true
             });
 </script>
-<p>
+<h4 class="tcolor">
 Открытое акционерное общество «Научно-производственное предприятие «Интеграл» было создано в 1999 году.
-<br /><br />
-В настоящий  момент ОАО «НПП «Интеграл» является одним из ведущих российских предприятий, обеспечивающих  научную и производственную базу по созданию высокотехнологичных систем и оборудования. Постоянное  удовлетворение требований и ожиданий потребителей, применение инновационных разработок позволяют обществу достигать высоких результатов и  повышать конкурентоспособность производимой продукции.</p>
+</h4>
+<p>В настоящий  момент ОАО «НПП «Интеграл» является одним из ведущих российских предприятий, обеспечивающих  научную и производственную базу по созданию высокотехнологичных систем и оборудования. Постоянное  удовлетворение требований и ожиданий потребителей, применение инновационных разработок позволяют обществу достигать высоких результатов и  повышать конкурентоспособность производимой продукции.</p>
 <p> ОАО "НПП "Интеграл" конструктивно сотрудничает с Государственной корпорацией по атомной энергии «Росатом». Предприятие включено в состав отраслевого консорциума разработчиков и изготовителей оборудования АСУ ТП для АЭС. ОАО "НПП "Интеграл" является одним из предприятий, обеспечивающих ФГУП «ГОЗНАК» специальными материалами.</p>
-<p>Основными направлениями деятельности ОАО «НПП «Интеграл» являются:</p>
+<h4 class="tcolor">Основными направлениями деятельности ОАО «НПП «Интеграл» являются:</h4>
 <p>
     <ul>
         <li>

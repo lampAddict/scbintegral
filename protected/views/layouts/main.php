@@ -28,7 +28,7 @@
 
 	<div id="header">
 		<div id="logo"><?php //echo CHtml::encode(Yii::app()->name); ?></div>
-        <div id="logo_title"><img src="images/oaonpp.png"/></div>
+        <div id="logo_title"><div class="logo_text">ОАО НАУЧНО-ПРОИЗВОДСТВЕННОЕ ПРЕДПРИЯТИЕ</div></div>
 	</div><!-- header -->
 
 	<div id="mainmenu">
