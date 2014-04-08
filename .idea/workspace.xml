@@ -66,19 +66,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contacts.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/pages/contacts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="174" selection-start="702" selection-end="702" vertical-scroll-proportion="0.51182795">
+            <state line="28" column="174" selection-start="702" selection-end="702" vertical-scroll-proportion="-18.307692">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="326" column="18" selection-start="4299" selection-end="4299" vertical-scroll-proportion="0.0">
+            <state line="326" column="32" selection-start="4313" selection-end="4313" vertical-scroll-proportion="0.87552303">
               <folding />
             </state>
           </provider>
@@ -151,9 +151,9 @@
         <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/views/site/pages/production.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/views/site/pages/contacts.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -572,13 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="326" column="18" selection-start="4299" selection-end="4299" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="23" selection-start="1318" selection-end="1318" vertical-scroll-proportion="-17.0">
@@ -588,7 +581,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/pages/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="174" selection-start="702" selection-end="702" vertical-scroll-proportion="0.51182795">
+        <state line="28" column="174" selection-start="702" selection-end="702" vertical-scroll-proportion="-18.307692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="326" column="32" selection-start="4313" selection-end="4313" vertical-scroll-proportion="0.87552303">
           <folding />
         </state>
       </provider>

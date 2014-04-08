@@ -324,5 +324,5 @@ have a fixed width and height (but it's not required).
 }
 
 .devcontact{
-    padding: 15px;
+    padding: 15px 15px 15px 45px;
 }
