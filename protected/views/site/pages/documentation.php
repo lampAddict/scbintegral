@@ -27,6 +27,12 @@ function getFileParams($fileName){
         case 'doc':
             $img = 'DOC.png';
             break;
+        case 'docx':
+            $img = 'DOCX.png';
+            break;
+        case 'pdf':
+            $img = 'PDF.png';
+            break;
         default:
             break;
     }

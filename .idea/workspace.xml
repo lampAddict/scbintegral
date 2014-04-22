@@ -4,9 +4,9 @@
     <list default="true" id="56656f52-20fe-4094-a262-b7d540f22917" name="Default" comment="" />
     <ignored path="scbtenzor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.php" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1398166707812" ignored="false" />
-    <file path="/main.css" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1398166770393" ignored="false" />
-    <file path="/index.php" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1396962617453" ignored="false" />
+    <file path="/main.php" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1398168613101" ignored="false" />
+    <file path="/main.css" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1398169917870" ignored="false" />
+    <file path="/index.php" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1398169831632" ignored="false" />
     <file path="/production.php" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1396962258012" ignored="false" />
     <file path="/technologies.php" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1391769362701" ignored="false" />
     <file path="/services.php" changelist="56656f52-20fe-4094-a262-b7d540f22917" time="1391769537427" ignored="false" />
@@ -80,25 +80,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="203" selection-end="203" vertical-scroll-proportion="-3.9230769">
+            <state line="31" column="12" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.5561614">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="documentation.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="documentation.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/pages/documentation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="104" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.31505376">
+            <state line="34" column="18" selection-start="950" selection-end="950" vertical-scroll-proportion="-11.923077">
               <folding>
                 <element signature="n#format_bytes#0;n#!!top" expanded="true" />
-                <marker date="1398168477555" expanded="true" signature="1582:1828" placeholder="..." />
-                <marker date="1398168477555" expanded="true" signature="1608:1658" placeholder="..." />
-                <marker date="1398168477555" expanded="true" signature="1684:1752" placeholder="..." />
-                <marker date="1398168477555" expanded="true" signature="1778:1817" placeholder="..." />
+                <marker date="1398169702515" expanded="true" signature="1722:1968" placeholder="..." />
+                <marker date="1398169702515" expanded="true" signature="1748:1798" placeholder="..." />
+                <marker date="1398169702515" expanded="true" signature="1824:1892" placeholder="..." />
+                <marker date="1398169702515" expanded="true" signature="1918:1957" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -107,7 +107,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="320" column="6" selection-start="4237" selection-end="4237" vertical-scroll-proportion="0.0">
+            <state line="300" column="13" selection-start="4003" selection-end="4003" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +116,7 @@
       <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="14" selection-start="2574" selection-end="2574" vertical-scroll-proportion="-24.846153">
+            <state line="19" column="7" selection-start="1310" selection-end="1310" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
@@ -138,11 +138,11 @@
         <option value="$PROJECT_DIR$/css/screen.css" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/protected/views/site/pages/production.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/views/site/pages/contacts.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/protected/views/site/pages/documentation.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -556,37 +556,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/site/pages/documentation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="14" selection-start="2574" selection-end="2574" vertical-scroll-proportion="-24.846153">
-          <folding />
+        <state line="34" column="18" selection-start="950" selection-end="950" vertical-scroll-proportion="-11.923077">
+          <folding>
+            <element signature="n#format_bytes#0;n#!!top" expanded="true" />
+            <marker date="1398169702515" expanded="true" signature="1722:1968" placeholder="..." />
+            <marker date="1398169702515" expanded="true" signature="1748:1798" placeholder="..." />
+            <marker date="1398169702515" expanded="true" signature="1824:1892" placeholder="..." />
+            <marker date="1398169702515" expanded="true" signature="1918:1957" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="320" column="6" selection-start="4237" selection-end="4237" vertical-scroll-proportion="0.0">
+        <state line="300" column="13" selection-start="4003" selection-end="4003" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="7" selection-start="1310" selection-end="1310" vertical-scroll-proportion="-10.461538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="203" selection-end="203" vertical-scroll-proportion="-3.9230769">
+        <state line="31" column="12" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.5561614">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/pages/documentation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="104" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.31505376">
-          <folding>
-            <element signature="n#format_bytes#0;n#!!top" expanded="true" />
-            <marker date="1398168477555" expanded="true" signature="1582:1828" placeholder="..." />
-            <marker date="1398168477555" expanded="true" signature="1608:1658" placeholder="..." />
-            <marker date="1398168477555" expanded="true" signature="1684:1752" placeholder="..." />
-            <marker date="1398168477555" expanded="true" signature="1778:1817" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>

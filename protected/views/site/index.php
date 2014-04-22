@@ -27,6 +27,16 @@ $this->pageTitle=Yii::app()->name;
         Тел.: 8 (49621) 2-12-34
     </div>
 </div>
+<div class="half">
+    <div class="news">
+        <ul>
+            <li>Заголовок новость 1</li>
+            <li>Заголовок новость 2</li>
+            <li>Заголовок новость 3</li>
+            <li>Заголовок новость 4</li>
+        </ul>
+    </div>
+</div>
 <script type="text/javascript">
 
     $('.jcarousel').on('jcarousel:targetin', 'li', function(event, carousel) {

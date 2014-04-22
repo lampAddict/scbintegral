@@ -23,7 +23,7 @@
 	<div id="header">
 		<div id="logo"><?php //echo CHtml::encode(Yii::app()->name); ?></div>
         <div id="logo_title"><div class="logo_text">ОАО НАУЧНО-ПРОИЗВОДСТВЕННОЕ ПРЕДПРИЯТИЕ</div></div>
-        <div class="title_address"><div class="address_text">119034, Россия, г. Москва, ул. Пречистенка, д. 40/2, стр. 2 тел./факс 7 (499) 255-87-48, 255-34-39</div></div>
+        <div class="title_address"><div class="address_text">119034, Россия, г. Москва, ул. Пречистенка, д. 40/2, стр. 2 тел./факс 7 (499) 255 87 48, 255 34 39</div></div>
 	</div><!-- header -->
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(

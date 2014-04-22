@@ -37,7 +37,7 @@ body
 
 #content
 {
-    padding: 20px 20px 20px 29px;
+    padding: 10px 20px 20px 29px;
 }
 
 #sidebar
@@ -298,6 +298,8 @@ have a fixed width and height (but it's not required).
 
 .desc{
     font-size: 15px;
+    width: 33%;
+    height: 34px;
 }
 
 .product{
@@ -319,12 +321,12 @@ have a fixed width and height (but it's not required).
 }
 
 .half{
-    width: 50%;
+    width: 33%;
     float: left;
     height: 350px;
 }
 
-.devcontact{
+.devcontact, .news{
     padding: 15px 15px 15px 45px;
 }
 
