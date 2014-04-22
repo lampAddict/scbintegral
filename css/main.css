@@ -327,3 +327,11 @@ have a fixed width and height (but it's not required).
 .devcontact{
     padding: 15px 15px 15px 45px;
 }
+
+table.fTable{
+    border-collapse: collapse;
+}
+
+td.fTable{
+    border: 1px solid #C0C0C0;
+}
