@@ -335,3 +335,15 @@ table.fTable{
 td.fTable{
     border: 1px solid #C0C0C0;
 }
+
+.title_address{
+    background-color: #D3DEE9;
+    color: rgb(4, 135, 209);
+    font-weight: bold;
+}
+
+.address_text{
+    width:621px;
+    margin:0 auto;
+    padding: 3px 0;
+}

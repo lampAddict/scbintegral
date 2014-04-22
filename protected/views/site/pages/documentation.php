@@ -33,7 +33,9 @@ function getFileParams($fileName){
 
     $numBytes = format_bytes( filesize( 'files/'.$fileName ) );
 
-    return array('img'=>$img, 'filename'=>$fileName, 'filecaption'=>mb_convert_encoding($pathInfo['filename'], "utf-8", "windows-1251"), 'filesize'=>$numBytes);
+    $fileName = mb_convert_encoding($pathInfo['filename'], "utf-8", "windows-1251");
+
+    return array('img'=>$img, 'filename'=>rawurlencode($pathInfo['filename']).'.'.$pathInfo['extension'], 'filecaption'=>$fileName, 'filesize'=>$numBytes);
 }
 
 $files = array();

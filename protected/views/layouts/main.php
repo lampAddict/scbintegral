@@ -4,33 +4,27 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="en" />
-
 	<!-- blueprint CSS framework -->
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
 	<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->
-
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
     <link rel="icon" type="image/ico" href="/favicon.png" />
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
-
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/jquery.jcarousel.js"></script>
     <script src="js/jquery.jcarousel-autoscroll.js"></script>
 </head>
-
 <body>
-
 <div class="container" id="page">
-
 	<div id="header">
 		<div id="logo"><?php //echo CHtml::encode(Yii::app()->name); ?></div>
         <div id="logo_title"><div class="logo_text">ОАО НАУЧНО-ПРОИЗВОДСТВЕННОЕ ПРЕДПРИЯТИЕ</div></div>
+        <div class="title_address"><div class="address_text">119034, Россия, г. Москва, ул. Пречистенка, д. 40/2, стр. 2 тел./факс 7 (499) 255-87-48, 255-34-39</div></div>
 	</div><!-- header -->
-
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
@@ -51,15 +45,11 @@
 			'homeLink' => CHtml::link('Главная', Yii::app()->homeUrl),
 		)); ?><!-- breadcrumbs -->
 	<?php endif?>
-
 	<?php echo $content; ?>
-
 	<div class="clear"></div>
-
 	<div id="footer">
         Дизайн и разработка сайта <a href="http://baldheads.ru" target="_blank">Baldheads</a><br/>
 	</div><!-- footer -->
-
 </div><!-- page -->
 <div id="bg">&nbsp;</div>
 </body>
