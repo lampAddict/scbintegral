@@ -17,6 +17,7 @@
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/jquery.jcarousel.js"></script>
     <script src="js/jquery.jcarousel-autoscroll.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
 <div class="container" id="page">
@@ -51,6 +52,6 @@
         Дизайн и разработка сайта <a href="http://baldheads.ru" target="_blank">Baldheads</a><br/>
 	</div><!-- footer -->
 </div><!-- page -->
-<div id="bg">&nbsp;</div>
+<div class="main-bg"><img id="bg" src="/images/tenzor_bg.jpg"/></div>
 </body>
 </html>
