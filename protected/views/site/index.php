@@ -3,7 +3,7 @@
 $this->pageTitle=Yii::app()->name;
 ?> 
 <div id="desc" class="desc tcolor">Устройство управления токоограничением</div>
-<div class="half">
+<div class="quarter">
     <div class="jcarousel">
         <ul>
             <?php
@@ -21,20 +21,12 @@ $this->pageTitle=Yii::app()->name;
         </ul>
     </div>
 </div>
-<div class="half">
+<div class="threefourth">
     <div class="devcontact">
-        Контактная информация группы разработчиков:<br /><br />
-        Тел.: 8 (49621) 2-12-34
-    </div>
-</div>
-<div class="half">
-    <div class="news">
-        <ul>
-            <li>Заголовок новость 1</li>
-            <li>Заголовок новость 2</li>
-            <li>Заголовок новость 3</li>
-            <li>Заголовок новость 4</li>
-        </ul>
+        <span style="float:left; margin-top:2px; font-weight:bold;">Инновационные решения для повышения платежной дисциплины на розничном рынке электроэнергии и в сфере ЖКХ</span>
+        <span style="float:left; margin-top:20px;">Группа инновационных проектов:</span>
+        <span style="float:left; margin-top:5px; width:100%"><a class="nolink black" href="tel:+7 496 217-03-83">+7 496 217-03-83</a></span>
+        <span style="float:left; margin-top:3px;"><a class="nolink black" href="mailto:ig@nppintegral">ig@nppintegral</a></span>
     </div>
 </div>
 <script type="text/javascript">
