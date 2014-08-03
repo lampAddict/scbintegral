@@ -11,7 +11,7 @@ $this->pageTitle=Yii::app()->name;
                 array('name'=>'uto.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
                 array('name'=>'uto1.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
                 array('name'=>'kk.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Коммутационная коробка для устройств управления токоограничением'),
-                array('name'=>'uvo.png','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничением')
+                /*array('name'=>'uvo.png','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничением')*/
             );
 
             foreach( $carim as $img ){
@@ -23,10 +23,13 @@ $this->pageTitle=Yii::app()->name;
 </div>
 <div class="threefourth">
     <div class="devcontact">
-        <span style="float:left; margin-top:2px; font-weight:bold;">Инновационные решения для повышения платежной дисциплины на розничном рынке электроэнергии и в сфере ЖКХ</span>
-        <span style="float:left; margin-top:20px;">Группа инновационных проектов:</span>
-        <span style="float:left; margin-top:5px; width:100%"><a class="nolink black" href="tel:+7 496 217-03-83">+7 496 217-03-83</a></span>
-        <span style="float:left; margin-top:3px;"><a class="nolink black" href="mailto:ig@nppintegral">ig@nppintegral</a></span>
+        <span style="float:left; margin-top:2px; font-weight:bold; color: #4067C4; font-size: 16px;">Инновационные решения для повышения платежной дисциплины на розничном рынке электроэнергии и в сфере ЖКХ</span>
+        <span style="float:left; margin-top:20px;">Контакты группы инновационных проектов:</span>
+        <span style="float:left; margin-top:5px; width:100%">тел./факс&nbsp;&nbsp;<a class="nolink black" href="tel:+7 496 217-03-83">+7 496 217-03-83</a></span>
+        <span style="float:left; margin-top:5px; width:100%"><b>Руководитель группы</b><br />Петров Валерий Александрович</span>
+        <span style="float:left; margin-top:5px; width:100%"><b>Главный менеджер группы</b><br />Акелин Александр Владимирович</span>
+        <span style="float:left; margin-top:5px; width:100%"><b>Инженер группы</b><br />Тимонин Роман Владимирович</span>
+        <span style="float:left; margin-top:3px;">e-mail&nbsp;&nbsp;<a class="nolink black" href="mailto:ig@nppintegral.ru">ig@nppintegral.ru</a></span>
     </div>
 </div>
 <script type="text/javascript">

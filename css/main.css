@@ -351,9 +351,17 @@ td.fTable{
 }
 
 .address_text{
-    width:671px;
+    width:800px;
     margin:0 auto;
     padding: 3px 0;
+    text-align: center;
+}
+
+.address_text_wide{
+    width:900px;
+    margin:0 auto;
+    padding: 3px 0;
+    text-align: center;
 }
 
 .nolink{
