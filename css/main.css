@@ -20,7 +20,7 @@ div.main-bg{
 	margin-top: 5px;
 	margin-bottom: 5px;
 	background: white;
-	//border: 1px solid #C9E0ED;
+	/*border: 1px solid #C9E0ED;*/
 }
 
 #header
@@ -410,4 +410,8 @@ td.fTable{
 
 .ctelheader{
     color: rgb(4, 135, 209);
+}
+
+img{
+    border-radius: 15px;
 }

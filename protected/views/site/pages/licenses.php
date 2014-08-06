@@ -5,7 +5,8 @@ $this->pageTitle=Yii::app()->name . ' - Лицензии и сертификат
 $this->breadcrumbs=array(
     'Лицензии и сертификаты',
 );
-?>
-<p>
-    Раздел в разработке
-</p>
+
+require_once 'libs/fileLib.php';
+
+$fileList = new FileList('licenses');
+echo $fileList->showList();

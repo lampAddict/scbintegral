@@ -39,10 +39,18 @@
                     ),
                 ),
                 array('label'=>'Лицензии и сертификаты', 'url'=>array('/site/page', 'view'=>'licenses')),
-                array('label'=>'Раскрытие информации', 'url'=>array('/site/page', 'view'=>'information')),
+                array('label'=>'Раскрытие информации', 'url'=>array('/site/page', 'view'=>'information'),
+
+                    'items'=>array(
+                        array('label'=>'Устав и внутренние документы',      'url'=>array('/site/page', 'view'=>'regulations')),
+                        array('label'=>'Отчетность',                        'url'=>array('/site/page', 'view'=>'accounts')),
+                        array('label'=>'События',                           'url'=>array('/site/page', 'view'=>'developments'))
+                    ),
+                ),
                 array('label'=>'Инновации', 'url'=>array('/site/page', 'view'=>'innovation')),
                 array('label'=>'Наши партнеры', 'url'=>array('/site/page', 'view'=>'partners')),
-				array('label'=>'Контакты', 'url'=>array('/site/page', 'view'=>'contacts'))
+				array('label'=>'Контакты', 'url'=>array('/site/page', 'view'=>'contacts')),
+                //array('label'=>'Документы', 'url'=>array('/site/page', 'view'=>'documentation'))
 				//array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				//array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),
@@ -77,7 +85,7 @@
                 z-index:1;
                 }
             .topNav li a {
-                //color: #ffffff;
+                /*color: #ffffff;*/
             }
             .topNav li ul li {
                 clear: left;

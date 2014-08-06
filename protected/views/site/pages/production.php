@@ -116,19 +116,72 @@ function uvo(){
 
 function plist(){
     return '
-                <div class="clickable" onclick="window.location.href=\'/index.php?r=site/page&view=production&show=uto\'">
-                    <div class="product">
-                        <img id="uto" src="images/products/uto.png"/>
-                        <label class="pname" for="uto">Устройства управления токоограничением</label>
-                    </div>
+            <style type="text/css">
+            ul.decimal li{
+                padding: 3px 0;
+                list-style-type: decimal
+            }
+            ul.disc{
+                margin-bottom: 2px;
+            }
+            ul.disc li{
+                list-style-type: disc;
+            }
+            </style>
+            <h4 class="tcolor">Основные направления деятельности ОАО «НПП «Интеграл»:</h4>
+            <p>
+                <ul class="decimal">
+                    <li>Проектирование и разработка, освоение и промышленное производство, проведение испытаний, поставка, монтаж и пуско-наладка, ремонт и техническое обслуживание следующих видов продукции:</li>
+                        <ul class="disc">
+                            <li>
+                            компьютеризированные системы, приборы и оборудование для атомных станций;
+                            </li>
+                            <li>
+                            комплексы и системы технических средств охраны;
+                            </li>
+                            <li>
+                            комплексы охранной сигнализации протяженных и локальных объектов;
+                            </li>
+                            <li>
+                            средства обнаружения и управления доступом;
+                            </li>
+                            <li>
+                            системы пожаротушения для промышленных объектов, в том числе ядерно- и радиационно-опасных;
+                            </li>
+                            <li>
+                            информационные (криптографические) средства, защитные голографические знаки и другие новые изделия.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                    Разработка и реализация научно-технических идей, новых технологических процессов, конструкций, приборов, оборудования, технической документации на их производство и изготовление.
+                    </li>
+                    <li>
+                    Установка устройств управления водоограничением и токоограничением.
+                    </li>
+                    <li>
+                    Установка приборов учета потребления электроэнергии, оснащенных устройствами управления токоограничением.
+                    </li>
+                    <li>
+                    Поставка, производство металлических изделий с различными покрытиями, материалов, обладающих специальными свойствами.
+                    </li>
+                    <li>
+                    Организация производства продукции по заказам юридических лиц на договорных условиях.
+                    </li>
+                </ul>
+            </p>
+            <div class="clickable" onclick="window.location.href=\'/index.php?r=site/page&view=production&show=uto\'">
+                <div class="product">
+                    <img id="uto" src="images/products/uto.png"/>
+                    <label class="pname" for="uto">Устройства управления токоограничением</label>
                 </div>
-                <div class="clickable" onclick="window.location.href=\'/index.php?r=site/page&view=production&show=uvo\'">
-                    <div class="product">
-                        <img id="uvo" src="images/products/uvo.png"/>
-                        <label class="pname" for="uvo">Устройства управления водоограничением</label>
-                    </div>
+            </div>
+            <div class="clickable" onclick="window.location.href=\'/index.php?r=site/page&view=production&show=uvo\'">
+                <div class="product">
+                    <img id="uvo" src="images/products/uvo.png"/>
+                    <label class="pname" for="uvo">Устройства управления водоограничением</label>
                 </div>
-            ';
+            </div>';
 }
 
 if( isset($_GET['show']) && $_GET['show'] != '' ){
@@ -136,27 +189,27 @@ if( isset($_GET['show']) && $_GET['show'] != '' ){
     switch( $_GET['show'] ){
         case 'uto':
             /* @var $this SiteController */
-            $this->pageTitle=Yii::app()->name . ' - Продукция - Устройства управления токоограничением';
-            $this->breadcrumbs=array('Продукция'=>array('site/page', 'view'=>'production'),'Устройства управления токоограничением');
+            $this->pageTitle=Yii::app()->name . ' - Продукция и услуги - Устройства управления токоограничением';
+            $this->breadcrumbs=array('Продукция и услуги'=>array('site/page', 'view'=>'production'),'Устройства управления токоограничением');
             echo uto();
             break;
         case 'uvo':
             /* @var $this SiteController */
-            $this->pageTitle=Yii::app()->name . ' - Продукция - Устройства управления водоограничением';
-            $this->breadcrumbs=array('Продукция'=>array('site/page', 'view'=>'production'),'Устройства управления водоограничением');
+            $this->pageTitle=Yii::app()->name . ' - Продукция и услуги - Устройства управления водоограничением';
+            $this->breadcrumbs=array('Продукция и услуги'=>array('site/page', 'view'=>'production'),'Устройства управления водоограничением');
             echo uvo();
             break;
         default:
             /* @var $this SiteController */
-            $this->pageTitle=Yii::app()->name . ' - Продукция';
-            $this->breadcrumbs=array('Продукция',);
+            $this->pageTitle=Yii::app()->name . ' - Продукция и услуги';
+            $this->breadcrumbs=array('Продукция и услуги',);
             echo plist();
             break;
     }
 }
 else{
-    $this->pageTitle=Yii::app()->name . ' - Продукция';
-    $this->breadcrumbs=array('Продукция',);
+    $this->pageTitle=Yii::app()->name . ' - Продукция и услуги';
+    $this->breadcrumbs=array('Продукция и услуги',);
 
     echo plist();
 }

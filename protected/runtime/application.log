@@ -435,3 +435,21 @@ Stack trace:
 REQUEST_URI=/index.php?r=site/page&view=production%26show%3Duto
 HTTP_REFERER=http://scbintegral/index.php?r=site/page&view=production%26show%3Duto
 ---
+2014/08/06 14:46:14 [error] [php] require_once(lib/fileLib.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (C:\_stuff\OpenServer\domains\scbintegral\protected\views\site\pages\documentation.php:8)
+Stack trace:
+#0 C:\_stuff\yii1.1.14\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\_stuff\yii1.1.14\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\_stuff\yii1.1.14\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\_stuff\yii1.1.14\framework\web\actions\CViewAction.php(140): SiteController->render()
+#4 C:\_stuff\yii1.1.14\framework\web\actions\CAction.php(76): CViewAction->run()
+#5 C:\_stuff\yii1.1.14\framework\web\CController.php(308): CViewAction->runWithParams()
+#6 C:\_stuff\yii1.1.14\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\_stuff\yii1.1.14\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\_stuff\yii1.1.14\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\_stuff\yii1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\_stuff\yii1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\_stuff\OpenServer\domains\scbintegral\index.php(16): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=documentation
+in C:\_stuff\OpenServer\domains\scbintegral\protected\views\site\pages\documentation.php (8)
+in C:\_stuff\OpenServer\domains\scbintegral\protected\views\site\pages\documentation.php (8)
+in C:\_stuff\OpenServer\domains\scbintegral\index.php (16)
