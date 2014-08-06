@@ -20,7 +20,7 @@ div.main-bg{
 	margin-top: 5px;
 	margin-bottom: 5px;
 	background: white;
-	border: 1px solid #C9E0ED;
+	//border: 1px solid #C9E0ED;
 }
 
 #header
@@ -80,26 +80,62 @@ div.main-bg{
 
 #mainmenu ul
 {
-	padding:5px 20px;
+	padding:5px 0px;
 	margin:0px;
 }
 
 #mainmenu ul li
 {
 	display: inline;
+    margin: 0 5px;
+}
+
+#mainmenu ul li ul
+{
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    height: auto;
+    top: 204px;
+}
+
+#mainmenu ul li.active a
+{
+    text-decoration:none;
 }
 
 #mainmenu ul li a
 {
 	color:#ffffff;
 	background-color:transparent;
-	font-size:12px;
+	font-size:13px;
 	font-weight:bold;
 	text-decoration:none;
 	padding:5px 8px;
 }
 
-#mainmenu ul li a:hover, #mainmenu ul li.active a
+#mainmenu ul li.active ul li a
+{
+    color: #6399cd;
+    text-decoration: none;
+}
+
+#mainmenu ul li ul li a
+{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    color: #6399cd;
+}
+
+#mainmenu ul li.active ul, #mainmenu ul li:hover ul
+{
+    margin-left:0px;
+    margin-top: 2px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a, #mainmenu ul li.active ul li a:hover
 {
 	color: #6399cd;
 	background-color:#EFF4FA;
@@ -329,7 +365,7 @@ have a fixed width and height (but it's not required).
 .threefourth{
     width: 75%;
     float: left;
-    height: 350px;
+    height: 440px;
 }
 
 .devcontact, .news{

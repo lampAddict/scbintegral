@@ -405,3 +405,33 @@ REQUEST_URI=/index.php?r=site/page&view=documentation
 in C:\_stuff\OpenServer\domains\scbintegral\protected\views\site\pages\documentation.php (37)
 in C:\_stuff\OpenServer\domains\scbintegral\protected\views\site\pages\documentation.php (77)
 in C:\_stuff\OpenServer\domains\scbintegral\index.php (16)
+2014/08/03 22:04:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "production&show=uto" was not found.' in C:\_stuff\yii1.1.14\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\_stuff\yii1.1.14\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('production&show...')
+#1 C:\_stuff\yii1.1.14\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\_stuff\yii1.1.14\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\_stuff\yii1.1.14\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\_stuff\yii1.1.14\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\_stuff\yii1.1.14\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\_stuff\yii1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\_stuff\yii1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\_stuff\OpenServer\domains\scbintegral\index.php(16): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=site/page&view=production%26show%3Duto
+HTTP_REFERER=http://scbintegral/index.php?r=site/index
+---
+2014/08/03 22:07:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "production&show=uto" was not found.' in C:\_stuff\yii1.1.14\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\_stuff\yii1.1.14\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('production&show...')
+#1 C:\_stuff\yii1.1.14\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\_stuff\yii1.1.14\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\_stuff\yii1.1.14\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\_stuff\yii1.1.14\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\_stuff\yii1.1.14\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\_stuff\yii1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\_stuff\yii1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\_stuff\OpenServer\domains\scbintegral\index.php(16): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=site/page&view=production%26show%3Duto
+HTTP_REFERER=http://scbintegral/index.php?r=site/page&view=production%26show%3Duto
+---
