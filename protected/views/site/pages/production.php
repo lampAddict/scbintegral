@@ -27,8 +27,8 @@ function uto(){
         </ul>
     </p>
     <p>
-        <img src="images/products/uto.png" />
-        <img src="images/products/uto1.png"/>
+        <img src="images/products/uto_cr.JPG" />
+        <img src="images/products/uto_m200.JPG"/>
     </p>
     <h4 class="tcolor">Технические характеристики</h4>
     <p>
@@ -64,7 +64,7 @@ function uto(){
     В электрических щитках нового типа устройства УТО  могут быть  установлены на DIN-рейку вместе с автоматическими выключателями (АВ) и закрываться общей металлической пластиной с окнами для доступа к органам управления.
     </p>
     <p>
-        <img src="images/products/kk_f.png" />
+        <img src="images/products/kk_f.JPG" width="800"/>
     </p>
     <h4 class="tcolor">Преимущества устройств управления токоограничением</h4>
     <p>
@@ -99,7 +99,7 @@ function uvo(){
                 </ul>
             </p>
             <p>
-                <img src="images/products/uvo_f.png" />
+                <img src="images/products/uvo_f.JPG" />
             </p>
             <h4 class="tcolor">Варианты исполнения защиты УВО</h4>
             <p>Все варианты исполнения защиты от несанкционированного доступа УВО предусматривают наличие в запирающем элементе магнитного «секрета».  Только с использованием соответствующей головки возможен процесс отпирания/запирания крана. В случае необходимости место доступа к ключу доступа может пломбироваться. Конструктивное исполнение УВО позволяет осуществить несколько ступеней ограничения или полное отключение водоснабжения.</p>
@@ -109,7 +109,7 @@ function uvo(){
                 <img src="images/products/uvo_s3.png" />
                 <img src="images/products/uvo_s4.png" />
             </p>
-            <p>Устройства группы УВО патентуются как объект промышленной собственности в РФ. Изделия изготавливаются на производственной базе ОАО «Приборный завод «Тензор» г.Дубна. Продукция сертифицирована (ТУ3712-001-50157563-14).</p>
+            <p>Устройства группы УВО запатентованы как объект промышленной собственности в РФ. Изделия изготавливаются на производственной базе ОАО «Приборный завод «Тензор» г.Дубна. Продукция сертифицирована (ТУ3712-001-50157563-14).</p>
         ';
 
 }
@@ -172,13 +172,13 @@ function plist(){
             </p>
             <div class="clickable" onclick="window.location.href=\'/index.php?r=site/page&view=production&show=uto\'">
                 <div class="product">
-                    <img id="uto" src="images/products/uto.png"/>
+                    <img id="uto" src="images/products/uto_cr.JPG"/>
                     <label class="pname" for="uto">Устройства управления токоограничением</label>
                 </div>
             </div>
             <div class="clickable" onclick="window.location.href=\'/index.php?r=site/page&view=production&show=uvo\'">
                 <div class="product">
-                    <img id="uvo" src="images/products/uvo.png"/>
+                    <img id="uvo" src="images/products/uvo_s.JPG"/>
                     <label class="pname" for="uvo">Устройства управления водоограничением</label>
                 </div>
             </div>';
