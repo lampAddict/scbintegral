@@ -53,7 +53,7 @@ if ( isset($_GET['pr']) && intval($_GET['pr']) == 1  ){
         Контакты Группы инновационных проектов ОАО «НПП «Интеграл»:<br />
         141980, Россия, Московская область, г. Дубна, ул. Приборостроителей, 2, оф. 409<br />
         Тел./факс&nbsp;<a class="nolink black" href="tel:+7 (496) 217-03-83">+7 (496) 217-03-83</a><br />
-        e-mail:&nbsp;<a class="nolink black" href="mailto:ig@nppintegral.ru">ig@nppintegral.ru</a>&nbsp;&nbsp;web-сайт:&nbsp;<a class="nolink black" href="nppintegral.ru" target="_blank">nppintegral.ru</a>
+        e-mail&nbsp;<a class="nolink black" href="mailto:ig@nppintegral.ru">ig@nppintegral.ru</a>
         </div>
         <span style="float: left; margin-top: 5px; width: 100%"><b>Руководитель группы:</b>&nbsp;&mdash;&nbsp;Петров Валерий Александрович</b>, доктор физ.-мат. наук, профессор</span>
         <span style="float: left; width: 100%">моб. тел.:&nbsp;<a class="nolink black" href="tel:+7(909) 656-64-41">+7(909) 656-64-41</a>,</span>
