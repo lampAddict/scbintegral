@@ -11,7 +11,7 @@ if ( isset($_GET['pr']) && intval($_GET['pr']) == 1  ){
 
         <i style="float:right">«Мало того, что нужно жить, ежемесячно надо ещё и платить за это…»<br />
         Иосиф Бродский</i>
-        <div style="float:left; margin-top: 30px">
+        <div style="float:left; margin: 30px 0">
             <p>
         ОАО «Научно-производственное предприятие «Интеграл» (Дубна, Московская область) представляет новую продукцию для сферы ЖКХ, а именно – устройства управления токоограничением (УТО) и водоограничением (УВО) с защитой от несанкционированных воздействий.
             </p>
@@ -48,20 +48,18 @@ if ( isset($_GET['pr']) && intval($_GET['pr']) == 1  ){
             <p>
         По оценке экспертов в сфере ЖКХ, метод воздействия на должников посредством использования УТО и УВО является наиболее оптимальным и позволяет достигнуть желаемого результата с минимальными затратами и наименьшими нежелательными эффектами.
             </p>
-            <p>
-        <div style="float: left; width: 100%">
-        Контакты Группы инновационных проектов ОАО «НПП «Интеграл»:<br />
-        141980, Россия, Московская область, г. Дубна, ул. Приборостроителей, 2, оф. 409<br />
-        Тел./факс&nbsp;<a class="nolink black" href="tel:+7 (496) 217-03-83">+7 (496) 217-03-83</a><br />
-        e-mail&nbsp;<a class="nolink black" href="mailto:ig@nppintegral.ru">ig@nppintegral.ru</a>
-        </div>
-        <span style="float: left; margin-top: 5px; width: 100%"><b>Руководитель группы:</b>&nbsp;&mdash;&nbsp;Петров Валерий Александрович</b>, доктор физ.-мат. наук, профессор</span>
-        <span style="float: left; width: 100%">моб. тел.:&nbsp;<a class="nolink black" href="tel:+7(909) 656-64-41">+7(909) 656-64-41</a>,</span>
-        <span style="float: left; margin-top: 5px; width: 100%"><b>Гл. менеджер проекта:</b>&nbsp;&mdash;&nbsp;Акелин Александр Владимирович</span>
-        <span style="float: left; width: 100%">моб.тел.:&nbsp;<a class="nolink black" href="tel:+7(903) 726-25-55">+7(903) 726-25-55</a></span>
-        <span style="float: left; margin-top: 5px; width: 100%"><b>Инженер группы:</b>&nbsp;&mdash;&nbsp;Тимонин Роман Владимирович</span>
-        <span style="float: left; width: 100%">моб.тел.:&nbsp;<a class="nolink black" href="tel:+7(916) 375-56-98">+7(916) 375-56-98</a></span>
-            </p>
+            <div style="float: left; width: 100%">
+            Контакты Группы инновационных проектов ОАО «НПП «Интеграл»:<br />
+            141980, Россия, Московская область, г. Дубна, ул. Приборостроителей, 2, оф. 409<br />
+            Тел./факс&nbsp;<a class="nolink black" href="tel:+7 (496) 217-03-83">+7 (496) 217-03-83</a><br />
+            e-mail&nbsp;<a class="nolink black" href="mailto:ig@nppintegral.ru">ig@nppintegral.ru</a>
+            </div>
+            <span style="float: left; margin-top: 5px; width: 100%"><b>Руководитель группы:</b>&nbsp;&mdash;&nbsp;Петров Валерий Александрович</b>, доктор физ.-мат. наук, профессор</span>
+            <span style="float: left; width: 100%">моб. тел.:&nbsp;<a class="nolink black" href="tel:+7(909) 656-64-41">+7(909) 656-64-41</a>,</span>
+            <span style="float: left; margin-top: 5px; width: 100%"><b>Гл. менеджер проекта:</b>&nbsp;&mdash;&nbsp;Акелин Александр Владимирович</span>
+            <span style="float: left; width: 100%">моб.тел.:&nbsp;<a class="nolink black" href="tel:+7(903) 726-25-55">+7(903) 726-25-55</a></span>
+            <span style="float: left; margin-top: 5px; width: 100%"><b>Инженер группы:</b>&nbsp;&mdash;&nbsp;Тимонин Роман Владимирович</span>
+            <span style="float: left; width: 100%">моб.тел.:&nbsp;<a class="nolink black" href="tel:+7(916) 375-56-98">+7(916) 375-56-98</a></span>
         </div>
 <?
 }
