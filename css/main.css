@@ -98,6 +98,7 @@ div.main-bg{
     -webkit-border-bottom-right-radius: 10px;
     height: auto;
     top: 204px;
+    margin-top: -1px;
 }
 
 #mainmenu ul li.active a
@@ -112,7 +113,7 @@ div.main-bg{
 	font-size:13px;
 	font-weight:bold;
 	text-decoration:none;
-	padding:5px 8px;
+	padding:6px 8px;
 }
 
 #mainmenu ul li.active ul li a
@@ -132,7 +133,7 @@ div.main-bg{
 #mainmenu ul li.active ul, #mainmenu ul li:hover ul
 {
     margin-left:0px;
-    margin-top: 2px;
+    margin-top: -1px;
 }
 
 #mainmenu ul li a:hover, #mainmenu ul li.active a, #mainmenu ul li.active ul li a:hover
