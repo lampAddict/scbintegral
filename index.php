@@ -2,7 +2,7 @@
 
 // change the following paths if necessary
 //local
-$yii=dirname(__FILE__).'/../../../yii1.1.14/framework/yii.php';
+$yii=dirname(__FILE__).'/../../yii1.1.14/framework/yii.php';
 //production
 //$yii=dirname(__FILE__).'/../yii1.1.14/framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';

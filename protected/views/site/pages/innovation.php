@@ -91,7 +91,7 @@ else{
         <span style="float:left; margin-top:3px;">e-mail&nbsp;&nbsp;<a class="nolink black" href="mailto:ig@nppintegral.ru">ig@nppintegral.ru</a></span>
     </p>
     <p>
-        <a target="_blank" href="/index.php?r=site/page&view=innovation&pr=1">Пресс-релиз</a>
+        <a target="_blank" href="index.php?r=site/page&view=innovation&pr=1">Пресс-релиз</a>
     </p>
 <?
 }

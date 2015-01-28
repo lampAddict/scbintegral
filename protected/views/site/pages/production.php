@@ -170,13 +170,13 @@ function plist(){
                     </li>
                 </ul>
             </p>
-            <div class="clickable" onclick="window.location.href=\'/index.php?r=site/page&view=production&show=uto\'">
+            <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=uto\'">
                 <div class="product">
                     <img id="uto" src="images/products/uto_cr.JPG"/>
                     <label class="pname" for="uto">Устройства управления токоограничением</label>
                 </div>
             </div>
-            <div class="clickable" onclick="window.location.href=\'/index.php?r=site/page&view=production&show=uvo\'">
+            <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=uvo\'">
                 <div class="product">
                     <img id="uvo" src="images/products/uvo_s.JPG"/>
                     <label class="pname" for="uvo">Устройства управления водоограничением</label>
