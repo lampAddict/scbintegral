@@ -76,6 +76,11 @@ function uto(){
             <li>Реализуемые с использованием новых технических решений способы повышения платежной дисциплины являются мягкими, гуманными и имеющими правовую защиту.</li>
         </ul>
     </p>
+
+    <h4 class="tcolor mtop25em">Цена изделия</h4>
+    <p style="margin-bottom: 5px">
+        <a href="files/prices/uto.pdf" target="_blank">Прайс-лист на изделия группы УТО</a>
+    </p>
     ';
 }
 
@@ -130,6 +135,25 @@ function uvo(){
                 <span style="width:250px; float: left; text-align: center; margin-left: 55px;">Доступ к шаровому крану открыт для установки органичения</span>
             </p>
             <p>Устройства группы УВО запатентованы в РФ как объект промышленной собственности (Патент РФ №143769). Продукция сертифицирована (ТУ3712-001-50157563-14). Регистрационный номер декларации о соответствии: <a href="http://fsa.gov.ru/index/staticview/id/70/" target="_blank">TC N RU Д-RU.АЛ16.В.7041</a>.</p>
+
+            <h4 class="tcolor mtop25em">Цена изделия</h4>
+            <p style="margin-bottom: 5px">
+            Цена изделия зависит от общего количества заказанных изделий, ниже приведены ссылки на соответстующие прайс-листы.
+                <ul>
+                    <li>
+                        <a href="files/prices/uvo1-299.pdf" target="_blank">Цена УВО при заказе от 1 до 299 изделий</a>
+                    </li>
+                    <li>
+                        <a href="files/prices/uvo300-999.pdf" target="_blank">Цена УВО при заказе от 300 до 999 изделий</a>
+                    </li>
+                    <li>
+                        <a href="files/prices/uvo1000-4999.pdf" target="_blank">Цена УВО при заказе от 1000 до 4999 изделий</a>
+                    </li>
+                    <li>
+                        <a href="files/prices/uvo5000.pdf" target="_blank">Цена УВО при заказе от 5000 изделий</a>
+                    </li>
+                </ul>
+            </p>
             ';
 
 }
@@ -192,7 +216,7 @@ function plist(){
             </p>
             <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=uto\'">
                 <div class="product">
-                    <img id="uto" src="images/products/uto_cr.JPG"/>
+                    <img id="uto" src="images/products/uto_cr.JPG" height="162px"/>
                     <label class="pname" for="uto">Устройства управления токоограничением</label>
                 </div>
             </div>
