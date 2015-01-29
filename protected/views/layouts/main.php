@@ -109,6 +109,6 @@
         Дизайн и разработка сайта <a href="http://baldheads.ru" target="_blank">Baldheads</a><br/>
 	</div><!-- footer -->
 </div><!-- page -->
-<div class="main-bg"><img id="bg" src="/images/tenzor_bg.jpg"/></div>
+<div class="main-bg"><img id="bg" src="/images/tenzor_bg.jpg" style="border-radius: 0px;"/></div>
 </body>
 </html>
