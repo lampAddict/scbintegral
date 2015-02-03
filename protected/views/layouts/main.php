@@ -31,7 +31,7 @@
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Главная', 'url'=>array('/site/index')),
-				array('label'=>'Продукция и услуги', 'url'=>array('/site/page', 'view'=>'production'),
+				array('label'=>'Продукция', 'url'=>array('/site/page', 'view'=>'production'),
 
                     'items'=>array(
                                     array('label'=>'Устройства управления токоограничением',    'url'=>array('/site/page', 'view'=>'production', 'show'=>'uto')),

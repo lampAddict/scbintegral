@@ -15,9 +15,9 @@ $this->pageTitle=Yii::app()->name;
                 array('name'=>'uto1.png','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
                 array('name'=>'kk.JPG','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Коммутационная коробка для устройств управления токоограничением'),
                 array('name'=>'uto_m200.JPG','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
-                array('name'=>'uvo_s.JPG','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничением'),
-                array('name'=>'uvo_close.JPG','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничением'),
-                array('name'=>'uvo_open.JPG','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничением'),
+                array('name'=>'uvo_hw_m.JPG','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничениемб горячее водоснабжение'),
+                array('name'=>'uvo_cw_m.JPG','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничением, холодное водоснабжение'),
+                array('name'=>'uvo_h_m.JPG','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничением, теплоснабжение'),
             );
 
             foreach( $carim as $img ){
