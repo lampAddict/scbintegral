@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="ru" />
-    <meta name="description" content="устройства управления токоограничением, устройства управления водоограничением, улучшение платежной дисциплины населения многоквартирных домов">
+    <meta name="description" content="устройства управления токоограничением, токоограничение, устройства управления водоограничением, водоограничение, улучшение платежной дисциплины населения многоквартирных домов, нпп интеграл дубна, научно промышленное предприятие">
     <meta name="robots" content="index, follow">
 	<!-- blueprint CSS framework -->
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
