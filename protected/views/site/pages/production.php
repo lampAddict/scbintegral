@@ -239,7 +239,7 @@ function plist(){
             </p>
             <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=uto\'">
                 <div class="product">
-                    <img id="uto" src="images/products/uto_cr.JPG" height="162px"/>
+                    <img id="uto" src="images/products/uto-01f12_cr.png"/>
                     <label class="pname" for="uto">Устройства управления токоограничением</label>
                 </div>
             </div>
