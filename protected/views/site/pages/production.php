@@ -160,9 +160,11 @@ function uvo(){
             <p style="margin-bottom: 5px">
             Цена изделия зависит от общего количества заказанных изделий, ниже приведены ссылки на соответстующие прайс-листы.
                 <ul>
+                <!--
                     <li>
                         <a href="files/prices/uvo.pdf" target="_blank">Цена УВО (ТС)</a>
                     </li>
+                -->
                     <li>
                         <a href="files/prices/uvo1-299.pdf" target="_blank">Цена УВО (ХВС и ГВС) при заказе от 1 до 299 изделий</a>
                     </li>

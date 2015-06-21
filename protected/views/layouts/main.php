@@ -26,13 +26,14 @@
 	<div id="header">
 		<div id="logo"><?php //echo CHtml::encode(Yii::app()->name); ?></div>
         <div id="logo_title"><div class="logo_text">ОАО НАУЧНО-ПРОИЗВОДСТВЕННОЕ ПРЕДПРИЯТИЕ</div></div>
-        <div class="title_address"><div class="address_text">119034, Россия, г. Москва, ул. Пречистенка, д. 40/2, стр. 2&nbsp;&nbsp;тел./факс&nbsp;&nbsp;<a class="nolink ctelheader" href="tel:+7 (499) 255 87 48">+7 (499) 255 87 48</a>,&nbsp;&nbsp;<a class="nolink ctelheader" href="tel:255 34 39">255 34 39</a></div></div>
-        <div class="title_address"><div class="address_text_wide">Филиал: 141980, Россия, Московская обл., г. Дубна, ул. Приборостроителей, д.2&nbsp;&nbsp;тел.&nbsp;&nbsp;<a class="nolink ctelheader" href="tel:+7 (496) 217 03 83">+7 (496) 217 03 83</a></div></div>
+        <!-- <div class="title_address"><div class="address_text">119034, Россия, г. Москва, ул. Пречистенка, д. 40/2, стр. 2&nbsp;&nbsp;тел./факс&nbsp;&nbsp;<a class="nolink ctelheader" href="tel:+7 (499) 255 87 48">+7 (499) 255 87 48</a>,&nbsp;&nbsp;<a class="nolink ctelheader" href="tel:255 34 39">255 34 39</a></div></div>-->
+        <div class="title_address"><div class="address_text_wide">141980, Россия, Московская обл., г. Дубна, ул. Приборостроителей, д.2&nbsp;&nbsp;тел.&nbsp;&nbsp;<a class="nolink ctelheader" href="tel:+7 (496) 217 03 83">+7 (496) 217 03 83</a>&nbsp;&nbsp;<a class="nolink ctelheader" href="tel:+7 (903) 726-25-55">+7 (903) 726-25-55</a></div></div>
 	</div><!-- header -->
 	<div id="mainmenu" style="height: 26px;">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Главная', 'url'=>array('/site/index')),
+                array('label'=>'Новости', 'url'=>array('/site/page', 'view'=>'news')),
 				array('label'=>'Продукция', 'url'=>array('/site/page', 'view'=>'production'),
 
                     'items'=>array(
@@ -40,7 +41,9 @@
                                     array('label'=>'Устройства управления водоограничением', 	'url'=>array('/site/page', 'view'=>'production', 'show'=>'uvo'))
                     ),
                 ),
-                array('label'=>'Лицензии и сертификаты', 'url'=>array('/site/page', 'view'=>'licenses')),
+                array('label'=>'Цены', 'url'=>array('/site/page', 'view'=>'prices')),
+                //array('label'=>'Лицензии и сертификаты', 'url'=>array('/site/page', 'view'=>'licenses')),
+                /*
                 array('label'=>'Раскрытие информации', 'url'=>array('/site/page', 'view'=>'information'),
 
                     'items'=>array(
@@ -51,6 +54,7 @@
                 ),
                 array('label'=>'Инновации', 'url'=>array('/site/page', 'view'=>'innovation')),
                 array('label'=>'Наши партнеры', 'url'=>array('/site/page', 'view'=>'partners')),
+                */
 				array('label'=>'Контакты', 'url'=>array('/site/page', 'view'=>'contacts')),
                 //array('label'=>'Документы', 'url'=>array('/site/page', 'view'=>'documentation'))
 				//array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),

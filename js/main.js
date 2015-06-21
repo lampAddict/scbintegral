@@ -13,10 +13,18 @@ function resizeImage() {
         image.width(windowWidth);
     }
 }
+
 $(window).resize(function(){
     resizeImage();
 });
+
 $(window).load(function(){
-		imgFactor = $('#bg').width()/$('#bg').height();
+	imgFactor = $('#bg').width()/$('#bg').height();
     resizeImage();
+});
+
+$( document ).ready(function() {
+    $('#logo').click(function(){
+       window.location.href = 'http://nppintegral.ru/';
+    });
 });

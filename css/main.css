@@ -97,7 +97,7 @@ div.main-bg{
     -webkit-border-bottom-left-radius: 10px;
     -webkit-border-bottom-right-radius: 10px;
     height: auto;
-    top: 204px;
+    top: 183px;
     margin-top: -1px;
 }
 
@@ -419,4 +419,12 @@ img{
 
 .mtop25em{
     margin-top: 2.5em;
+}
+
+.mtop05em {
+    margin-top: 0.5em;
+}
+
+.bottom025em{
+    margin-bottom: 0.25em;
 }
