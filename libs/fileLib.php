@@ -37,6 +37,7 @@ class FileList{
                 $img = 'PDF.png';
                 break;
             default:
+                $img = '';
                 break;
         }
 
@@ -129,7 +130,13 @@ class FileList{
             echo '<p class="error">Ошибка чтения каталога файлов</p>';
         }
 
-
         return $result;
+    }
+
+    function showFile($fname = '', $caption = ''){
+
+        if( $fname == '' ){echo '<p class="error">Не задано имя файла</p>';return;}
+
+        return '<a target="_blank" href="'.$this->base_path.rawurlencode(iconv('UTF-8','WINDOWS-1251',$fname)).'">'.$caption.'</a>';
     }
 }
