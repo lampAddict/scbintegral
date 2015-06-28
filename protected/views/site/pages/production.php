@@ -183,8 +183,13 @@ function uvo(){
 
 }
 
+function ec(){
+
+}
+
 function plist(){
     return '
+            <!--
             <style type="text/css">
             ul.decimal li{
                 padding: 3px 0;
@@ -197,6 +202,7 @@ function plist(){
                 list-style-type: disc;
             }
             </style>
+
             <h4 class="tcolor">Основные направления деятельности ОАО «НПП «Интеграл»:</h4>
             <p>
                 <ul class="decimal">
@@ -239,6 +245,7 @@ function plist(){
                     </li>
                 </ul>
             </p>
+            -->
             <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=uto\'">
                 <div class="product">
                     <img id="uto" src="images/products/uto-01f12_cr.png"/>
@@ -267,6 +274,12 @@ if( isset($_GET['show']) && $_GET['show'] != '' ){
             $this->pageTitle=Yii::app()->name . ' - Продукция и услуги - Устройства управления водоограничением';
             $this->breadcrumbs=array('Продукция и услуги'=>array('site/page', 'view'=>'production'),'Устройства управления водоограничением');
             echo uvo();
+            break;
+        case 'ec':
+            /* @var $this SiteController */
+            $this->pageTitle=Yii::app()->name . ' - Продукция и услуги - Счетчики электрической энергии с функцией ограничения мощности ИНТЕГРА 101';
+            $this->breadcrumbs=array('Продукция и услуги'=>array('site/page', 'view'=>'production'),'Счетчики электрической энергии с функцией ограничения мощности ИНТЕГРА 101');
+            echo ec();
             break;
         default:
             /* @var $this SiteController */

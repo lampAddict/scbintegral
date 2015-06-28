@@ -1,9 +1,9 @@
 <?php
 /* @var $this SiteController */
 
-$this->pageTitle=Yii::app()->name . ' - Раскрытие информации';
+$this->pageTitle=Yii::app()->name . ' - О компании';
 $this->breadcrumbs=array(
-    'Раскрытие информации',
+    'О компании',
 );
 ?>
 <p>

@@ -1,9 +1,9 @@
 <?php
 /* @var $this SiteController */
 
-$this->pageTitle=Yii::app()->name . ' - Наши партнеры';
+$this->pageTitle=Yii::app()->name . ' - Партнеры';
 $this->breadcrumbs=array(
-    'Наши партнеры',
+    'Партнеры',
 );
 ?>
 <p>

@@ -5,6 +5,19 @@ $this->pageTitle=Yii::app()->name . ' - Контакты';
 $this->breadcrumbs=array(
     'Контакты',
 );
+
+function _wrap($type, $cont){
+    switch( $type ){
+        case 'email':
+            return '<a class="nolink black" href="mailto:' . $cont . '">' . $cont . '</a>';
+            break;
+        case 'phone':
+            return '<a class="nolink black" href="tel:' . $cont . '">' . $cont . '</a>';
+            break;
+        default:
+            break;
+    }
+}
 ?>
 <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script type="text/javascript">
@@ -52,17 +65,26 @@ $this->breadcrumbs=array(
 </p>
 -->
 <p>
+    141980, Россия, г. Дубна Московской области, ул. Приборостроителей, д. 2, офис 408
+</p>
+<p>
+    Служба реализации продукции тел.&nbsp;<?=_wrap('phone','+7 (496) 217 03 53')?> e-mail:&nbsp;<?=_wrap('email','ig@nppintegral.ru')?>;&nbsp;<?=_wrap('email','akelin_@mail.ru')?>
+</p>
+<p>
+    Директор по региональному развитию и реализации продукции - Акелин Александр Владимирович моб.&nbsp;<?=_wrap('phone','+7 (903) 726 25 55')?>
+</p>
+<p>
+    Ведущий менеджер – Титов Алексей Владимирович
+    <br />
+    моб.&nbsp;<?=_wrap('phone','+7 (965) 167 23 573')?>
+</p>
+<p>
+    Группа инновационных проектов
+    <br />
+    Руководитель – Петров Валерий Александрович
+    <br />
+    Инженер – Тимонин Роман Владимирович тел.&nbsp;<?=_wrap('phone','+7 (496) 217 03 83')?> e-mail:&nbsp;<?=_wrap('email','ig@nppintegral.ru')?>
+</p>
+<p>
     <div id="map" style="width: 600px; height: 400px"></div>
-</p>
-<p>
-141980, Россия, г. Дубна Московской области, ул. Приборостроителей, д. 2
-</p>
-<p>
-тел./факс&nbsp;<a class="nolink black" href="tel:+7 (496) 217 03 83">+7 (496) 217 03 83</a>
-</p>
-<p>
-    моб. тел.&nbsp;<a class="nolink black" href="tel:+7 (903) 726-25-55">+7 (903) 726-25-55</a>
-</p>
-<p>
-e-mail&nbsp;<a class="nolink black" href="mailto:akelin_@mail.ru">akelin_@mail.ru</a>
 </p>

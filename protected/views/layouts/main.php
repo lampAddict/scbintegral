@@ -33,16 +33,22 @@
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Главная', 'url'=>array('/site/index')),
+                array('label'=>'О компании', 'url'=>array('/site/page', 'view'=>'information'),
+                    'items'=>array(
+                        array('label'=>'Виды деятельности', 'url'=>array('/site/page', 'view'=>'activities')),
+                        array('label'=>'История',           'url'=>array('/site/page', 'view'=>'history'))
+                    ),
+                ),
                 array('label'=>'Новости', 'url'=>array('/site/page', 'view'=>'news')),
 				array('label'=>'Продукция', 'url'=>array('/site/page', 'view'=>'production'),
-
                     'items'=>array(
+                                    array('label'=>'Счетчики электроэнергии',                   'url'=>array('/site/page', 'view'=>'production', 'show'=>'ec')),
                                     array('label'=>'Устройства управления токоограничением',    'url'=>array('/site/page', 'view'=>'production', 'show'=>'uto')),
                                     array('label'=>'Устройства управления водоограничением', 	'url'=>array('/site/page', 'view'=>'production', 'show'=>'uvo'))
                     ),
                 ),
                 array('label'=>'Цены', 'url'=>array('/site/page', 'view'=>'prices')),
-                //array('label'=>'Лицензии и сертификаты', 'url'=>array('/site/page', 'view'=>'licenses')),
+                array('label'=>'Лицензии и сертификаты', 'url'=>array('/site/page', 'view'=>'licenses')),
                 /*
                 array('label'=>'Раскрытие информации', 'url'=>array('/site/page', 'view'=>'information'),
 
@@ -53,8 +59,9 @@
                     ),
                 ),
                 array('label'=>'Инновации', 'url'=>array('/site/page', 'view'=>'innovation')),
-                array('label'=>'Наши партнеры', 'url'=>array('/site/page', 'view'=>'partners')),
                 */
+                array('label'=>'Партнеры', 'url'=>array('/site/page', 'view'=>'partners')),
+
 				array('label'=>'Контакты', 'url'=>array('/site/page', 'view'=>'contacts')),
                 //array('label'=>'Документы', 'url'=>array('/site/page', 'view'=>'documentation'))
 				//array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
