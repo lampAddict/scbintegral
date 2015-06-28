@@ -257,6 +257,12 @@ function plist(){
                     <img id="uvo" src="images/products/uvo_s.JPG"/>
                     <label class="pname" for="uvo">Устройства управления водоограничением</label>
                 </div>
+            </div>
+            <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=ec\'">
+                <div class="product">
+                    <img id="integra" src="images/products/integra.png"/>
+                    <label class="pname" for="integra">Счетчик электрической энергии с функцией ограничения мощности</label>
+                </div>
             </div>';
 }
 

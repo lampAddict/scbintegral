@@ -340,7 +340,7 @@ have a fixed width and height (but it's not required).
 }
 
 .pname{
-    padding: 29px;
+    padding: 28px;
     display: block;
     cursor: pointer;
     text-decoration: underline;
