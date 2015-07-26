@@ -31,7 +31,7 @@ div.main-bg{
 
 #content
 {
-    padding: 10px 20px 20px 29px;
+    padding: 10px 20px 20px 14px;
 }
 
 #sidebar
@@ -201,7 +201,7 @@ div.view
 div.breadcrumbs
 {
 	font-size: 0.9em;
-	padding: 10px 20px 5px 29px;
+	padding: 10px 20px 5px 14px;
 }
 
 div.breadcrumbs span

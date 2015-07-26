@@ -103,7 +103,7 @@
             .topNav li ul li {
                 clear: left;
                 height: auto;
-                padding:2px 8px;
+                padding:2px 4px;
             }
             .topNav li.active a {
                 text-decoration: none;
