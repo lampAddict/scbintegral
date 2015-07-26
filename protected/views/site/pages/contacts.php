@@ -76,7 +76,7 @@ function _wrap($type, $cont){
 <p>
     Ведущий менеджер – Титов Алексей Владимирович
     <br />
-    моб.&nbsp;<?=_wrap('phone','+7 (965) 167 23 573')?>
+    моб.&nbsp;<?=_wrap('phone','+7 (965) 167 23 57')?> e-mail:&nbsp;<?=_wrap('email','elektra-tit@yandex.ru')?>
 </p>
 <p>
     Группа инновационных проектов

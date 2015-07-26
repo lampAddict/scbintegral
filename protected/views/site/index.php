@@ -14,11 +14,11 @@ require_once 'libs/fileLib.php';
         <ul>
             <?php
             $carim = array(
-                array('name'=>'uto-01f12_m.JPG','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
+                //array('name'=>'uto-01f12_m.JPG','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
                 array('name'=>'uto-01f20_m.JPG','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
                 //array('name'=>'kk.JPG','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Коммутационная коробка для устройств управления токоограничением'),
                 array('name'=>'uto_m200_m.jpg','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
-                array('name'=>'integra_101_m.jpg','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
+                array('name'=>'integra_m.jpg','link'=>'/index.php?r=site/page&view=production&show=uto', 'desc'=>'Устройство управления токоограничением'),
                 array('name'=>'uvo_hw_m.JPG','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничениемб горячее водоснабжение'),
                 array('name'=>'uvo_cw_m.JPG','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничением, холодное водоснабжение'),
                 array('name'=>'uvo_h_m.JPG','link'=>'/index.php?r=site/page&view=production&show=uvo', 'desc'=>'Устройство управления водоограничением, теплоснабжение'),
