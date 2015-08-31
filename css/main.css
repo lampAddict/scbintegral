@@ -428,3 +428,22 @@ img{
 .bottom025em{
     margin-bottom: 0.25em;
 }
+
+.news_title{
+    color: #1264C9;
+    font-size: 1.8em;
+    line-height: 1.25;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.news_title span{
+    font-size: 15px;
+    margin-right: 10px;
+    float: left;
+    width: 100%;
+}
+
+.mtop0{
+    margin-top: 0px;
+}
