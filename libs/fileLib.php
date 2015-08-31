@@ -23,6 +23,44 @@ class FileList{
         }
     }
 
+    private $tr = array(
+        "а"=>"a", "б"=>"b", "в"=>"v", "г"=>"g", "д"=>"d", "е"=>"e", "ё"=>".yo.",
+        "ж"=>".zh.", "з"=>"z", "и"=>"i", "й"=>"j", "к"=>"k",
+        "л"=>"l", "м"=>"m", "н"=>"n", "о"=>"o", "п"=>"p",
+        "р"=>"r", "с"=>"s", "т"=>"t", "у"=>"u", "ф"=>"f",
+        "х"=>".kh.", "ц"=>".tz.", "ч"=>".ch.", "ш"=>".sh.", "щ"=>".sch.",
+        "ы"=>"y", "э"=>".e.", "ю"=>".yu.", "я"=>".ya.", " "=>"-"
+    );
+
+    private $etr = array(
+        "А"=>"a", "Б"=>"b", "В"=>"v", "Г"=>"g", "Д"=>"d",
+        "Е"=>"e", "Ё"=>".yo.", "Ж"=>".zh.", "З"=>"z", "И"=>"i",
+        "Й"=>"j", "К"=>"k", "Л"=>"l", "М"=>"m", "Н"=>"n",
+        "О"=>"o", "П"=>"p", "Р"=>"r", "С"=>"s", "Т"=>"t",
+        "У"=>"u", "Ф"=>"f", "Х"=>".kh.", "Ц"=>".tz.", "Ч"=>".ch.",
+        "Ш"=>".sh.", "Щ"=>".sch.", "Ъ"=>"", "Ы"=>"y", "Ь"=>"",
+        "Э"=>"e", "Ю"=>".yu.", "Я"=>".ya.",
+        "а"=>"a", "б"=>"b", "в"=>"v", "г"=>"g", "д"=>"d",
+        "е"=>"e", "ё"=>".yo.", "ж"=>".zh.", "з"=>"z", "и"=>"i",
+        "й"=>"j", "к"=>"k", "л"=>"l", "м"=>"m", "н"=>"n",
+        "о"=>"o", "п"=>"p", "р"=>"r", "с"=>"s", "т"=>"t",
+        "у"=>"u", "ф"=>"f", "х"=>".kh.", "ц"=>".tz.", "ч"=>".ch.",
+        "ш"=>".sh.", "щ"=>".sch.", "ъ"=>"", "ы"=>"y", "ь"=>"",
+        "э"=>".e.", "ю"=>".yu.", "я"=>".ya.",
+        " "=>"-", ","=>"", "/"=>"-",
+        ":"=>"", ";"=>"","—"=>"", "–"=>"-"
+    );
+
+    function ru2lat($str)
+    {
+        return strtr($str,$this->etr);
+    }
+
+    function lat2ru($str)
+    {
+        return strtr($str, array_flip($this->tr));
+    }
+
     function getFileParams($fileName){
 
         $pathInfo = pathinfo( $this->base_path . $fileName);
@@ -43,9 +81,18 @@ class FileList{
 
         $numBytes = $this->format_bytes( filesize( $this->base_path . $fileName ) );
 
+        $__fileName = $fileName;
+
         $fileName = mb_convert_encoding($pathInfo['filename'], "utf-8", "windows-1251");
 
-        return array('img'=>$img, 'filename'=>rawurlencode($pathInfo['filename']).'.'.$pathInfo['extension'], 'filecaption'=>$fileName, 'filesize'=>$numBytes);
+        $_fileName = $this->ru2lat($fileName);
+
+        if( file_exists($this->base_path . $__fileName ) &&
+            $_fileName.'.'.$pathInfo['extension'] != $__fileName ){
+            rename($this->base_path . $__fileName, $this->base_path . $_fileName.'.'.$pathInfo['extension']);
+        }
+
+        return array('img'=>$img, 'filename'=>$_fileName.'.'.$pathInfo['extension'], 'filecaption'=>$this->lat2ru($_fileName), 'filesize'=>$numBytes);
     }
 
     function showList(){
