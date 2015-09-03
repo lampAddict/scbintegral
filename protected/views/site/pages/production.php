@@ -288,24 +288,31 @@ function plist(){
                 </ul>
             </p>
             -->
+            <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=ec\'">
+                <div class="product">
+                    <img id="integra" src="images/products/integra_pult.png"/>
+                    <label class="pname" for="integra">Счетчик электрической энергии с функцией ограничения мощности ИНТЕГРА 101</label>
+                </div>
+            </div>
+            <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=uto\'">
+                <div class="product">
+                    <img id="integra" src="images/products/uto_m200_full_cr.png"/>
+                    <label class="pname" for="integra">Устройство управления токоограничением УТО-01Ф11М200 коммутируемое с электросчетчиком Меркурий 200</label>
+                </div>
+            </div>
             <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=uto\'">
                 <div class="product">
                     <img id="uto" src="images/products/uto-01f12_cr.png"/>
-                    <label class="pname" for="uto">Устройства управления токоограничением</label>
+                    <label class="pname" for="uto">Устройство управления токоограничением универсальное УТО-01Ф12</label>
                 </div>
             </div>
             <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=uvo\'">
                 <div class="product">
                     <img id="uvo" src="images/products/uvo_s.JPG"/>
-                    <label class="pname" for="uvo">Устройства управления водоограничением</label>
+                    <label class="pname" for="uvo">Устройство управления водоограничением УВО для ХВС, ГВС с защитой от несанкционированных действий</label>
                 </div>
             </div>
-            <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=ec\'">
-                <div class="product">
-                    <img id="integra" src="images/products/integra.png"/>
-                    <label class="pname" for="integra">Счетчик электрической энергии с функцией ограничения мощности</label>
-                </div>
-            </div>';
+            ';
 }
 
 if( isset($_GET['show']) && $_GET['show'] != '' ){

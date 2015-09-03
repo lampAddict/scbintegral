@@ -95,7 +95,7 @@ class FileList{
         return array('img'=>$img, 'filename'=>$_fileName.'.'.$pathInfo['extension'], 'filecaption'=>$this->lat2ru($_fileName), 'filesize'=>$numBytes);
     }
 
-    function showList(){
+    function showList($order=array()){
 
         $result = '';
 
@@ -127,6 +127,19 @@ class FileList{
                             </tr>';
 
             $page = '';
+
+            if( !empty($order) ){
+                foreach( $order as $_fname ){
+                    foreach( $files as $fileName ){
+                        if( $_fname == substr($fileName, 0, strrpos($fileName,'.')) ){
+                            $ordered_files[] = $fileName;
+                            continue;
+                        }
+                    }
+                }
+
+                $files = $ordered_files;
+            }
 
             $fileParams = array();
             foreach ( $files as $fileName ){

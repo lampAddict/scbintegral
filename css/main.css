@@ -336,7 +336,7 @@ have a fixed width and height (but it's not required).
 .product{
     float: left;
     width: 200px;
-    margin: 0px 30px 50px 0px;
+    margin: 0px 25px 50px 0px;
 }
 
 .pname{
@@ -446,4 +446,9 @@ img{
 
 .mtop0{
     margin-top: 0px;
+}
+
+.news_img{
+    width:200px;
+    height:100%;
 }
