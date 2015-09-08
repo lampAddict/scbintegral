@@ -26,7 +26,6 @@
 	<div id="header">
 		<div id="logo"><?php //echo CHtml::encode(Yii::app()->name); ?></div>
         <div id="logo_title"><div class="logo_text">ОАО НАУЧНО-ПРОИЗВОДСТВЕННОЕ ПРЕДПРИЯТИЕ</div></div>
-        <!-- <div class="title_address"><div class="address_text">119034, Россия, г. Москва, ул. Пречистенка, д. 40/2, стр. 2&nbsp;&nbsp;тел./факс&nbsp;&nbsp;<a class="nolink ctelheader" href="tel:+7 (499) 255 87 48">+7 (499) 255 87 48</a>,&nbsp;&nbsp;<a class="nolink ctelheader" href="tel:255 34 39">255 34 39</a></div></div>-->
         <div class="title_address"><div class="address_text_wide">141980, Россия, Московская обл., г. Дубна, ул. Приборостроителей, д.2&nbsp;&nbsp;тел.&nbsp;&nbsp;<a class="nolink ctelheader" href="tel:+7 (496) 217 03 83">+7 (496) 217 03 83</a>&nbsp;&nbsp;<a class="nolink ctelheader" href="tel:+7 (903) 726-25-55">+7 (903) 726-25-55</a></div></div>
 	</div><!-- header -->
 	<div id="mainmenu" style="height: 26px;">
