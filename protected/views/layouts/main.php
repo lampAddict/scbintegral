@@ -48,6 +48,7 @@
                     ),
                 ),
                 array('label'=>'Цены', 'url'=>array('/site/page', 'view'=>'prices')),
+                array('label'=>'Типовые проекты', 'url'=>array('/site/page', 'view'=>'typical_projects')),
                 array('label'=>'Лицензии и сертификаты', 'url'=>array('/site/page', 'view'=>'licenses')),
                 /*
                 array('label'=>'Раскрытие информации', 'url'=>array('/site/page', 'view'=>'information'),

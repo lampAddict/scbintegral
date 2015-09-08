@@ -83,7 +83,7 @@ function uto(){
 
     <h4 class="tcolor mtop25em">Цена изделия</h4>
     <p style="margin-bottom: 5px">
-        <a href="files/prices/uto.pdf" target="_blank">Прайс-лист на изделия группы УТО</a>
+        <a href="/index.php?r=site/page&view=prices" target="_self">Прайс-листы на изделия группы УТО</a>
     </p>
     ';
 }
@@ -109,24 +109,6 @@ function uvo(){
                 <img src="images/products/uvo_hw.JPG" width="265px"/>
                 <img src="images/products/uvo_h.JPG" width="323px" />
             </p>
-            <!--
-            <p>
-                <table>
-                    <tr>
-                        <td style="width: 20%">Габаритные размеры, мм.:</td>
-                        <td style="width: 208px;">82х85</td>
-                        <td style="width: 265px;">82х85</td>
-                        <td>57х57</td>
-                    </tr>
-                    <tr>
-                        <td style="width: 20%">Масса, г.:</td>
-                        <td style="width: 208px;">280</td>
-                        <td style="width: 265px;">280</td>
-                        <td>210</td>
-                    </tr>
-                </table>
-            </p>
-            -->
 
             <h4 class="tcolor mtop25em">Схема распределения зон эксплуатационной ответственности в многоквартирном доме (МКД) для ХВС и ГВС</h4>
             <div style="height: 300px;">
@@ -160,11 +142,6 @@ function uvo(){
             <p style="margin-bottom: 5px">
             Цена изделия зависит от общего количества заказанных изделий, ниже приведены ссылки на соответстующие прайс-листы.
                 <ul>
-                <!--
-                    <li>
-                        <a href="files/prices/uvo.pdf" target="_blank">Цена УВО (ТС)</a>
-                    </li>
-                -->
                     <li>
                         <a href="files/prices/uvo1-299.pdf" target="_blank">Цена УВО (ХВС и ГВС) при заказе от 1 до 299 изделий</a>
                     </li>
@@ -230,65 +207,7 @@ function ec(){
 }
 
 function plist(){
-    return '
-            <!--
-            <style type="text/css">
-            ul.decimal li{
-                padding: 3px 0;
-                list-style-type: decimal
-            }
-            ul.disc{
-                margin-bottom: 2px;
-            }
-            ul.disc li{
-                list-style-type: disc;
-            }
-            </style>
-
-            <h4 class="tcolor">Основные направления деятельности ОАО «НПП «Интеграл»:</h4>
-            <p>
-                <ul class="decimal">
-                    <li>Проектирование и разработка, освоение и промышленное производство, проведение испытаний, поставка, монтаж и пуско-наладка, ремонт и техническое обслуживание следующих видов продукции:</li>
-                        <ul class="disc">
-                            <li>
-                            компьютеризированные системы, приборы и оборудование для атомных станций;
-                            </li>
-                            <li>
-                            комплексы и системы технических средств охраны;
-                            </li>
-                            <li>
-                            комплексы охранной сигнализации протяженных и локальных объектов;
-                            </li>
-                            <li>
-                            средства обнаружения и управления доступом;
-                            </li>
-                            <li>
-                            системы пожаротушения для промышленных объектов, в том числе ядерно- и радиационно-опасных;
-                            </li>
-                            <li>
-                            информационные (криптографические) средства, защитные голографические знаки и другие новые изделия.
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                    Разработка и реализация научно-технических идей, новых технологических процессов, конструкций, приборов, оборудования, технической документации на их производство и изготовление.
-                    </li>
-                    <li>
-                    Установка устройств управления водоограничением и токоограничением.
-                    </li>
-                    <li>
-                    Установка приборов учета потребления электроэнергии, оснащенных устройствами управления токоограничением.
-                    </li>
-                    <li>
-                    Поставка, производство металлических изделий с различными покрытиями, материалов, обладающих специальными свойствами.
-                    </li>
-                    <li>
-                    Организация производства продукции по заказам юридических лиц на договорных условиях.
-                    </li>
-                </ul>
-            </p>
-            -->
-            <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=ec\'">
+    return '<div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=ec\'">
                 <div class="product">
                     <img id="integra" src="images/products/integra_pult.png"/>
                     <label class="pname" for="integra">Счетчик электрической энергии с функцией ограничения мощности ИНТЕГРА 101</label>
