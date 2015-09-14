@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 require_once 'libs/fileLib.php';
 
 $order = array(
-                'svidetelstvo-na-.e.lektros.ch.et.ch.ik-integra',
+                'svidetel.mzn.stvo-na-.e.lektros.ch.et.ch.ik-integra',
                 'sertifikat-sootvetstvi.ya.-uto',
                 'patent-na-uto',
                 'patent-na-uvo',
@@ -18,5 +18,6 @@ $order = array(
                 'sertifikat-sootvetstvi.ya.-sistemy-mened.zh.menta-ISO-9001-2008'
                 );
 
+//$order = array();
 $fileList = new FileList('licenses');
 echo $fileList->showList($order);
