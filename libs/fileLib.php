@@ -103,8 +103,9 @@ class FileList{
 
         if ( $handle = opendir( $this->base_path ) ) {
             while (false !== ($filename = readdir($handle))) {
-                if ($filename != "." &&
-                    $filename != "..") {
+                if (    $filename != "."
+                    &&  $filename != ".."
+                    && !is_dir($filename)) {
 
                     $files[] = $filename;
                 }
