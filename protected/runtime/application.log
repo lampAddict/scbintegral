@@ -489,3 +489,87 @@ REQUEST_URI=/index.php?r=site/page&view=licenses
 in D:\dev\OpenServer\domains\scbintegral\libs\fileLib.php (146)
 in D:\dev\OpenServer\domains\scbintegral\protected\views\site\pages\licenses.php (23)
 in D:\dev\OpenServer\domains\scbintegral\index.php (16)
+2015/10/13 02:34:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in D:\dev\OpenServer\yii1.1.14\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 D:\dev\OpenServer\yii1.1.14\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('index')
+#1 D:\dev\OpenServer\yii1.1.14\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 D:\dev\OpenServer\yii1.1.14\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 D:\dev\OpenServer\yii1.1.14\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 D:\dev\OpenServer\yii1.1.14\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(283): CController->run('page')
+#6 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#7 D:\dev\OpenServer\yii1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\dev\OpenServer\domains\scbintegral\index.php(16): CApplication->run()
+#9 {main}
+REQUEST_URI=/?r=site/page
+---
+2015/10/13 02:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "none".' in D:\dev\OpenServer\yii1.1.14\framework\web\CController.php:483
+Stack trace:
+#0 D:\dev\OpenServer\yii1.1.14\framework\web\CController.php(270): CController->missingAction('none')
+#1 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(283): CController->run('none')
+#2 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(142): CWebApplication->runController('site/none')
+#3 D:\dev\OpenServer\yii1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\dev\OpenServer\domains\scbintegral\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/?r=site/none
+---
+2015/10/13 02:34:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yoyoy".' in D:\dev\OpenServer\yii1.1.14\framework\web\CController.php:483
+Stack trace:
+#0 D:\dev\OpenServer\yii1.1.14\framework\web\CController.php(270): CController->missingAction('yoyoy')
+#1 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(283): CController->run('yoyoy')
+#2 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(142): CWebApplication->runController('site/yoyoy')
+#3 D:\dev\OpenServer\yii1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\dev\OpenServer\domains\scbintegral\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/?r=site/yoyoy
+---
+2015/10/13 02:37:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yoyoy".' in D:\dev\OpenServer\yii1.1.14\framework\web\CController.php:483
+Stack trace:
+#0 D:\dev\OpenServer\yii1.1.14\framework\web\CController.php(270): CController->missingAction('yoyoy')
+#1 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(283): CController->run('yoyoy')
+#2 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(142): CWebApplication->runController('site/yoyoy')
+#3 D:\dev\OpenServer\yii1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\dev\OpenServer\domains\scbintegral\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/?r=site/yoyoy
+---
+2015/10/13 02:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yoyoy".' in D:\dev\OpenServer\yii1.1.14\framework\web\CController.php:483
+Stack trace:
+#0 D:\dev\OpenServer\yii1.1.14\framework\web\CController.php(270): CController->missingAction('yoyoy')
+#1 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(283): CController->run('yoyoy')
+#2 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(142): CWebApplication->runController('site/yoyoy')
+#3 D:\dev\OpenServer\yii1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\dev\OpenServer\domains\scbintegral\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/?r=site/yoyoy
+---
+2015/10/13 02:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yoyoy".' in D:\dev\OpenServer\yii1.1.14\framework\web\CController.php:483
+Stack trace:
+#0 D:\dev\OpenServer\yii1.1.14\framework\web\CController.php(270): CController->missingAction('yoyoy')
+#1 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(283): CController->run('yoyoy')
+#2 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(142): CWebApplication->runController('site/yoyoy')
+#3 D:\dev\OpenServer\yii1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\dev\OpenServer\domains\scbintegral\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/?r=site/yoyoy
+---
+2015/10/13 02:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yoyoy".' in D:\dev\OpenServer\yii1.1.14\framework\web\CController.php:483
+Stack trace:
+#0 D:\dev\OpenServer\yii1.1.14\framework\web\CController.php(270): CController->missingAction('yoyoy')
+#1 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(283): CController->run('yoyoy')
+#2 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(142): CWebApplication->runController('site/yoyoy')
+#3 D:\dev\OpenServer\yii1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\dev\OpenServer\domains\scbintegral\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/?r=site/yoyoy
+---
+2015/10/13 02:37:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yoyoy".' in D:\dev\OpenServer\yii1.1.14\framework\web\CController.php:483
+Stack trace:
+#0 D:\dev\OpenServer\yii1.1.14\framework\web\CController.php(270): CController->missingAction('yoyoy')
+#1 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(283): CController->run('yoyoy')
+#2 D:\dev\OpenServer\yii1.1.14\framework\web\CWebApplication.php(142): CWebApplication->runController('site/yoyoy')
+#3 D:\dev\OpenServer\yii1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\dev\OpenServer\domains\scbintegral\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/?r=site/yoyoy
+---

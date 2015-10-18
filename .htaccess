@@ -1,0 +1,20 @@
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^company$ /index.php?r=site/page&view=information [NC,L]
+RewriteRule ^company/activities$ /index.php?r=site/page&view=activities [NC,L]
+RewriteRule ^company/history$ /index.php?r=site/page&view=history [NC,L]
+RewriteRule ^news$ /index.php?r=site/page&view=news [NC,L]
+RewriteRule ^production$ /index.php?r=site/page&view=production [NC,L]
+RewriteRule ^production/electric-meter$ /index.php?r=site/page&view=production&show=ec [NC,L]
+RewriteRule ^production/uto$ /index.php?r=site/page&view=production&show=uto [NC,L]
+RewriteRule ^production/uvo$ /index.php?r=site/page&view=production&show=uvo [NC,L]
+RewriteRule ^prices$ /index.php?r=site/page&view=prices [NC,L]
+RewriteRule ^typical-projects /index.php?r=site/page&view=typical_projects [NC,L]
+RewriteRule ^licenses /index.php?r=site/page&view=licenses [NC,L]
+RewriteRule ^partners /index.php?r=site/page&view=partners [NC,L]
+RewriteRule ^contacts /index.php?r=site/page&view=contacts [NC,L]
+
+RewriteCond %{HTTP_HOST} ^www\.nppintegral\.ru$ [NC]
+RewriteRule ^(.*)$ http://nppintegral.ru/$1 [R=301,L]

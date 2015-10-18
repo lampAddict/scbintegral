@@ -53,8 +53,8 @@ function uto(){
         </ul>
     </p>
     <p>
-        <img src="images/products/uto-01f20_cr.JPG" />
-        <img src="images/products/uto-01f12_cr.JPG"/>
+        <img src="/images/products/uto-01f20_cr.JPG" />
+        <img src="/images/products/uto-01f12_cr.JPG"/>
     </p>
 
     <h4 class="tcolor mtop25em">Варианты размещения устройства УТО-01Ф1 в МКД.</h4>
@@ -68,7 +68,7 @@ function uto(){
     В электрических щитках с установленной DIN-рейкой устройство УТО-01Ф1 может размещаться вместе с автоматическими выключателями (АВ) и закрываться общей металлической пластиной с окнами для доступа к органам управления.
     </p>
     <p>
-        <img src="images/products/kk_f.JPG" width="800"/>
+        <img src="/images/products/kk_f.JPG" width="800"/>
     </p>
 
     <h4 class="tcolor mtop25em">Преимущества устройств управления токоограничением</h4>
@@ -106,9 +106,9 @@ function uvo(){
                 <span style="width:250px; float: left; text-align: center; margin-left: 25px;">Теплоснабжение<br />(ТС)</span>
             </p>
             <p>
-                <img src="images/products/uvo_cw.JPG" width="265px"/>
-                <img src="images/products/uvo_hw.JPG" width="265px"/>
-                <img src="images/products/uvo_h.JPG" width="323px" />
+                <img src="/images/products/uvo_cw.JPG" width="265px"/>
+                <img src="/images/products/uvo_hw.JPG" width="265px"/>
+                <img src="/images/products/uvo_h.JPG" width="323px" />
             </p>
             <p>Габаритные размеры: ХВС и ГВС - 82х85 мм.; ТС - размер 57х57 мм.; масса: ХВС и ГВС - 280 г.; ТС – 210 г.</p>
             <p>
@@ -119,15 +119,15 @@ function uvo(){
                 <span style="width:250px; float: left; text-align: center; margin-left: 25px;">Горячее водоснабжение<br />(ГВС)</span>
             </p>
             <p>
-                <img src="images/products/uvo_p_cw.jpg" width="265px"/>
-                <img src="images/products/uvo_p_hw.jpg" width="265px"/>
+                <img src="/images/products/uvo_p_cw.jpg" width="265px"/>
+                <img src="/images/products/uvo_p_hw.jpg" width="265px"/>
             </p>
             <p>Габаритные размеры: ХВС и ГВС - 93х93 мм.; масса: ХВС и ГВС - 165 г.</p>
 
             <h4 class="tcolor mtop25em">Защита от несанкционированного доступа к УВО</h4>
             <p>
-                <img src="images/products/uvo_w1r.png" />
-                <img src="images/products/uvo_w2r.png" />
+                <img src="/images/products/uvo_w1r.png" />
+                <img src="/images/products/uvo_w2r.png" />
             </p>
             <p style="width: 100%; float: left; margin-top: -15px;">
                 <span style="width: 250px; float: left; text-align: center; margin-left: 25px;">Доступ к шаровому крану закрыт магнитной заглушкой</span>
@@ -136,7 +136,7 @@ function uvo(){
 
             <h4 class="tcolor" style="margin-top: 5em;">Схема распределения зон эксплуатационной ответственности в многоквартирном доме (МКД) для ХВС и ГВС</h4>
             <div style="height: 300px;">
-                <div style="width:100%; float:left"><img src="images/products/taps.png"/></div>
+                <div style="width:100%; float:left"><img src="/images/products/taps.png"/></div>
                 <span style="margin-top: 10px; float: left; width: 100%;">Системы холодного водоснабжения (ХВС):</span>
                 <ul style="  list-style-type: decimal; float: left; display: block; margin: 5px 0 0 18px; padding: 5px 0 5px 0;">
                     <li>Фитинг</li>
@@ -160,7 +160,7 @@ function ec(){
             <h4 class="tcolor mtop25em">Принцип действия</h4>
             <p>Счетчик ИНТЕГРА 101 устанавливается в электрической цепи потребителя электроэнергии и имеет возможность осуществлять ступенчатое ограничение по току нагрузки путём отключения подачи электроэнергии при превышении установленного уровня мощности. Операции по введению определенной ступени ограничения по мощности или полному отключению от подачи электроэнергии осуществляются с помощью инфракрасного (ИК) пульта лицами, уполномоченными на эти действия только в случаях, предусмотренных действующим законодательством. В основе работы устройства токоограничения в счетчике ИНТЕГРА 101 лежат запатентованные полезные модели и изобретение.</p>
             <p>
-                <img src="images/products/integra_m.JPG" />
+                <img src="/images/products/integra_m.JPG" />
             </p>
             <h4 class="tcolor mtop25em">Технические характеристики</h4>
             <p>По устойчивости к воздействию температуры и влажности окружающей среды счетчики ИНТЕГРА 101 соответствуют исполнению УХЛ (NF) по ГОСТ 15150. По степени защиты, обеспечиваемой оболочкой, счетчик ИНТЕГРА 101 соответствует IР20 по ГОСТ 14254.</p>
@@ -199,27 +199,27 @@ function ec(){
 }
 
 function plist(){
-    return '<div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=ec\'">
+    return '<div class="clickable" onclick="window.location.href=\'production/electric-meter\'">
                 <div class="product">
-                    <img id="integra" src="images/products/integra_pult.png"/>
+                    <img id="integra" src="/images/products/integra_pult.png"/>
                     <label class="pname" for="integra">Счетчик электрической энергии с функцией ограничения мощности ИНТЕГРА 101</label>
                 </div>
             </div>
-            <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=uto\'">
+            <div class="clickable" onclick="window.location.href=\'production/uto\'">
                 <div class="product">
-                    <img id="integra" src="images/products/uto_m200_full_cr.png"/>
+                    <img id="integra" src="/images/products/uto_m200_full_cr.png"/>
                     <label class="pname" for="integra">Устройство управления токоограничением УТО-01Ф11М200 коммутируемое с электросчетчиком Меркурий 200</label>
                 </div>
             </div>
-            <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=uto\'">
+            <div class="clickable" onclick="window.location.href=\'production/uto\'">
                 <div class="product">
-                    <img id="uto" src="images/products/uto-01f12_cr.png"/>
+                    <img id="uto" src="/images/products/uto-01f12_cr.png"/>
                     <label class="pname" for="uto">Устройство управления токоограничением универсальное УТО-01Ф12</label>
                 </div>
             </div>
-            <div class="clickable" onclick="window.location.href=\'index.php?r=site/page&view=production&show=uvo\'">
+            <div class="clickable" onclick="window.location.href=\'production/uvo\'">
                 <div class="product">
-                    <img id="uvo" src="images/products/uvo_s.JPG"/>
+                    <img id="uvo" src="/images/products/uvo_s.JPG"/>
                     <label class="pname" for="uvo">Устройство управления водоограничением УВО для ХВС, ГВС с защитой от несанкционированных действий</label>
                 </div>
             </div>
