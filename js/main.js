@@ -1,6 +1,6 @@
 var imgFactor;
 
-function resizeImage() {
+function _resize() {
     var image = $('#bg');
     var windowWidth = $(window).outerWidth();
     var windowHeight = 320;//$('body').outerHeight();
@@ -12,15 +12,18 @@ function resizeImage() {
     } else if (image.outerWidth()<windowWidth){
         image.width(windowWidth);
     }
+
+    var _m = $('body>nav.navbar').height();
+    $('div#page').css('margin-top',(_m - 50)+'px');
 }
 
 $(window).resize(function(){
-    resizeImage();
+    _resize();
 });
 
 $(window).load(function(){
 	imgFactor = $('#bg').width()/$('#bg').height();
-    resizeImage();
+    _resize();
 });
 
 $( document ).ready(function() {

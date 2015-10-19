@@ -31,7 +31,7 @@ div.main-bg{
 
 #content
 {
-    padding: 10px 20px 20px 14px;
+    padding: 10px 20px 20px 0px;
 }
 
 #sidebar
@@ -42,10 +42,11 @@ div.main-bg{
 #footer
 {
 	padding: 10px;
-	margin: 10px 20px;
+	margin: 10px auto;
 	font-size: 0.8em;
 	text-align: center;
-	border-top: 1px solid #C9E0ED;
+    float: left;
+    width: 100%;
 }
 
 #logo
@@ -201,7 +202,7 @@ div.view
 div.breadcrumbs
 {
 	font-size: 0.9em;
-	padding: 10px 20px 5px 14px;
+	padding: 10px 0;
 }
 
 div.breadcrumbs span
@@ -358,15 +359,18 @@ have a fixed width and height (but it's not required).
 }
 
 .quarter{
-    width: 25%;
+    width: 200px;
     float: left;
-    height: 350px;
+    height: auto;
+    margin-right: 20px;
 }
 
 .threefourth{
     width: 75%;
     float: left;
     height: 440px;
+    margin: 0px 20px;
+    width: 680px;
 }
 
 .devcontact, .news{
@@ -450,4 +454,30 @@ img{
 
 .news_img{
     width:200px;
+}
+
+.jumbo{
+    margin-top: 60px;
+    padding: 0;
+    background-color: transparent;
+}
+
+.carousel-control.left,.carousel-control.right{
+    border-radius: 15px;
+}
+
+.main_slogan{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.well_main_page{
+    width: 75%;
+    min-width: 280px;
+    float: left;
+}
+
+.well_main_page p{
+    font-size: 16px;
 }
