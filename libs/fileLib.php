@@ -198,6 +198,6 @@ class FileList{
 
         if( $fname == '' ){echo '<p class="error">Не задано имя файла</p>';return;}
 
-        return '<a target="_blank" href="'.$this->base_path.rawurlencode(iconv('UTF-8','WINDOWS-1251',$fname)).'">'.$caption.'</a>';
+        return '<a target="_blank" href="'.$this->base_path.$this->ru2lat($fname).'">'.$caption.'</a>';
     }
 }

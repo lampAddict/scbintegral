@@ -40,7 +40,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">ОАО НПП Интеграл</a>
+            <div class="navbar-brand" style="height: 30px; margin: 11px; background-image: url(/images/sym_logo.png); background-repeat: no-repeat; background-size: contain;"></div>
+            <a class="navbar-brand" href="/">Интеграл</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
