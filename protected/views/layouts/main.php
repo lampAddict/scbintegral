@@ -96,7 +96,7 @@
 </div>
 <div class="main-bg"><img id="bg" src="/images/tenzor_bg.jpg" style="border-radius: 0px;"/></div>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="js/main.js"></script>
+<script src="/js/main.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
