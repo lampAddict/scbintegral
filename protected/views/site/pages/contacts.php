@@ -88,5 +88,5 @@ function _wrap($type, $cont){
     Инженер – Тимонин Роман Владимирович
 </p>
 <p>
-    <div id="map" style="width: 600px; height: 400px"></div>
+    <div id="map" style="width: 100%; height: 400px"></div>
 </p>

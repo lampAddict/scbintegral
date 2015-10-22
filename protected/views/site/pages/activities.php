@@ -2,7 +2,7 @@
 /* @var $this SiteController */
 
 $this->pageTitle=Yii::app()->name . ' - О компании - Виды деятельности';
-$this->breadcrumbs=array('О компании'=>array('site/page', 'view'=>'information'),'Виды деятельности');
+$this->breadcrumbs=array('О компании'=>'/company','Виды деятельности');
 
 ?>
 <style type="text/css">

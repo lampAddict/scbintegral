@@ -2,7 +2,7 @@
 /* @var $this SiteController */
 
 $this->pageTitle=Yii::app()->name . ' - О компании - История';
-$this->breadcrumbs=array('О компании'=>array('site/page', 'view'=>'information'),'История');
+$this->breadcrumbs=array('О компании'=>'/company','История');
 
 ?>
 <h4 class="tcolor">Открытое акционерное общество «Научно-производственное предприятие «Интеграл» было создано в 1999 году.</h4>

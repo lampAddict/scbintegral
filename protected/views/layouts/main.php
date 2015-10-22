@@ -84,7 +84,7 @@
             <?php if(isset($this->breadcrumbs)):?>
                 <?php $this->widget('zii.widgets.CBreadcrumbs', array(
                     'links'=>$this->breadcrumbs,
-                    'homeLink' => CHtml::link('Главная', Yii::app()->homeUrl),
+                    'homeLink' => CHtml::link('Главная', '/'),
                 )); ?><!-- breadcrumbs -->
             <?php endif?>
     </div>

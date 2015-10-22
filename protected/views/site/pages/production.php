@@ -232,19 +232,19 @@ if( isset($_GET['show']) && $_GET['show'] != '' ){
         case 'uto':
             /* @var $this SiteController */
             $this->pageTitle=Yii::app()->name . ' - Продукция и услуги - Устройства управления токоограничением';
-            $this->breadcrumbs=array('Продукция и услуги'=>array('site/page', 'view'=>'production'),'Устройства управления токоограничением');
+            $this->breadcrumbs=array('Продукция и услуги'=>'/production','Устройства управления токоограничением');
             echo uto();
             break;
         case 'uvo':
             /* @var $this SiteController */
             $this->pageTitle=Yii::app()->name . ' - Продукция и услуги - Устройства управления водоограничением';
-            $this->breadcrumbs=array('Продукция и услуги'=>array('site/page', 'view'=>'production'),'Устройства управления водоограничением');
+            $this->breadcrumbs=array('Продукция и услуги'=>'/production','Устройства управления водоограничением');
             echo uvo();
             break;
         case 'ec':
             /* @var $this SiteController */
             $this->pageTitle=Yii::app()->name . ' - Продукция и услуги - Счетчики электрической энергии с функцией ограничения мощности ИНТЕГРА 101';
-            $this->breadcrumbs=array('Продукция и услуги'=>array('site/page', 'view'=>'production'),'Счетчики электрической энергии с функцией ограничения мощности ИНТЕГРА 101');
+            $this->breadcrumbs=array('Продукция и услуги'=>'/production','Счетчики электрической энергии с функцией ограничения мощности ИНТЕГРА 101');
             echo ec();
             break;
         default:
